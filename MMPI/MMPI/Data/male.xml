@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+  <Question>
+    <Number>1</Number>
+    <Text>Я люблю читать научно-техническую литературу</Text>
+  </Question>
+  <Question>
+    <Number>2</Number>
+    <Text>У меня хороший аппетит</Text>
+  </Question>
+  <Question>
+    <Number>3</Number>
+    <Text>По утрам я обычно встаю свежим и отдохнувшим</Text>
+  </Question>
+  <Question>
+    <Number>4</Number>
+    <Text>Думаю, что мне понравилась бы работа библиотекаря</Text>
+  </Question>
+  <Question>
+    <Number>5</Number>
+    <Text>Малейший шум меня будит</Text>
+  </Question>
+  <Question>
+    <Number>6</Number>
+    <Text>Я люблю читать в газетах заметки о преступлениях</Text>
+  </Question>
+  <Question>
+    <Number>7</Number>
+    <Text>Мои руки и ноги обычно достаточно теплые</Text>
+  </Question>
+  <Question>
+    <Number>8</Number>
+    <Text>Моя повседневная жизнь полна событий, интересующих меня</Text>
+  </Question>
+  <Question>
+    <Number>9</Number>
+    <Text>Моя работоспособность не хуже, чем была раньше</Text>
+  </Question>
+  <Question>
+    <Number>10</Number>
+    <Text>Я часто ощущаю</Text>
+  </Question>
+  <Question>
+    <Number>11</Number>
+    <Text>Я верю, что сны всегда сбываются</Text>
+  </Question>
+  <Question>
+    <Number>12</Number>
+    <Text>Я люблю читать о преступлениях и таинственных приключениях</Text>
+  </Question>
+  <Question>
+    <Number>13</Number>
+    <Text>Работа дается мне ценой значительного напряжения</Text>
+  </Question>
+  <Question>
+    <Number>14</Number>
+    <Text>Раз в месяц или чаще у меня бывает понос</Text>
+  </Question>
+  <Question>
+    <Number>15</Number>
+    <Text>Временами мне в голову приходят такие нехорошие мысли, что о них лучше не рассказывать</Text>
+  </Question>
+  <Question>
+    <Number>16</Number>
+    <Text>Я считаю, что жизнь ко мне беспощадна</Text>
+  </Question>
+  <Question>
+    <Number>17</Number>
+    <Text>Мой отец хороший человек</Text>
+  </Question>
+  <Question>
+    <Number>18</Number>
+    <Text>У меня очень редко бывают запоры</Text>
+  </Question>
+  <Question>
+    <Number>19</Number>
+    <Text>Поступая на новую работу, я предпочитаю знать, с кем я должен наладить хорошие отношения</Text>
+  </Question>
+  <Question>
+    <Number>20</Number>
+    <Text>Моя половая жизнь удовлетворительна</Text>
+  </Question>
+  <Question>
+    <Number>21</Number>
+    <Text>Временами мне очень хотелось покинуть дом</Text>
+  </Question>
+  <Question>
+    <Number>22</Number>
+    <Text>Временами у меня бывают приступы смеха или плача, которые я не могу контролировать</Text>
+  </Question>
+  <Question>
+    <Number>23</Number>
+    <Text>Меня беспокоят приступы тошноты и рвоты</Text>
+  </Question>
+  <Question>
+    <Number>24</Number>
+    <Text>Мне кажется, что нет такого человека, который понимал бы меня</Text>
+  </Question>
+  <Question>
+    <Number>25</Number>
+    <Text>Я бы хотел быть певцом</Text>
+  </Question>
+  <Question>
+    <Number>26</Number>
+    <Text>Если я попадаю в неприятное положение, то мне лучше всего держать язык за зубами</Text>
+  </Question>
+  <Question>
+    <Number>27</Number>
+    <Text>Временами я нахожусь во власти какой-то злой силы</Text>
+  </Question>
+  <Question>
+    <Number>28</Number>
+    <Text>Если со мной поступают несправедливо, я чувствую, что должен отплатить за это просто из принципа</Text>
+  </Question>
+  <Question>
+    <Number>29</Number>
+    <Text>Несколько раз в неделю меня беспокоит изжога</Text>
+  </Question>
+  <Question>
+    <Number>30</Number>
+    <Text>Иногда мне хочется выругаться</Text>
+  </Question>
+  <Question>
+    <Number>31</Number>
+    <Text>Кошмарные сны снятся мне почти каждую ночь</Text>
+  </Question>
+  <Question>
+    <Number>32</Number>
+    <Text>Я замечаю, что мне трудно стало сосредоточиться на определенной задаче или работе</Text>
+  </Question>
+  <Question>
+    <Number>33</Number>
+    <Text>У меня бывают странные и своеобразные переживания</Text>
+  </Question>
+  <Question>
+    <Number>34</Number>
+    <Text>Большую часть времени у меня бывает кашель</Text>
+  </Question>
+  <Question>
+    <Number>35</Number>
+    <Text>Если бы люди не интриговали против меня, я бы добился гораздо большего</Text>
+  </Question>
+  <Question>
+    <Number>36</Number>
+    <Text>Я редко беспокоюсь о своем здоровье</Text>
+  </Question>
+  <Question>
+    <Number>37</Number>
+    <Text>У меня никогда не было неприятностей из-за моего поведения, связанного с половой жизнью</Text>
+  </Question>
+  <Question>
+    <Number>38</Number>
+    <Text>В юности было время, когда я совершал мелкие кражи</Text>
+  </Question>
+  <Question>
+    <Number>39</Number>
+    <Text>Временами мне хочется ломать вещи, бить посуду</Text>
+  </Question>
+  <Question>
+    <Number>40</Number>
+    <Text>Я бы предпочел большую часть времени сидеть ничего не делая и мечтать</Text>
+  </Question>
+  <Question>
+    <Number>41</Number>
+    <Text>У меня бывали такие периоды, тянувшиеся дни, недели или даже месяцы, когда я не мог ни за что взяться, так как не мог включиться в работу</Text>
+  </Question>
+  <Question>
+    <Number>42</Number>
+    <Text>Моей семье не нравится работа, которую я выбрал</Text>
+  </Question>
+  <Question>
+    <Number>43</Number>
+    <Text>У меня прерывистый и беспокойный сон</Text>
+  </Question>
+  <Question>
+    <Number>44</Number>
+    <Text>Большую часть времени у меня болит голова</Text>
+  </Question>
+  <Question>
+    <Number>45</Number>
+    <Text>Я не всегда говорю правду</Text>
+  </Question>
+  <Question>
+    <Number>46</Number>
+    <Text>Мой рассудок</Text>
+  </Question>
+  <Question>
+    <Number>47</Number>
+    <Text>Раз в неделю или чаше меня без видимой причины неожиданно</Text>
+  </Question>
+  <Question>
+    <Number>48</Number>
+    <Text>Когда я нахожусь среди людей, бывает, слышу очень странные вещи</Text>
+  </Question>
+  <Question>
+    <Number>49</Number>
+    <Text>Было бы лучше, если бы почти все законы отменили</Text>
+  </Question>
+  <Question>
+    <Number>50</Number>
+    <Text>Временами я чувствую, что умираю</Text>
+  </Question>
+  <Question>
+    <Number>51</Number>
+    <Text>Мое физическое здоровье не хуже, чем у большинства моих знакомых</Text>
+  </Question>
+  <Question>
+    <Number>52</Number>
+    <Text>Я предпочитаю проходить мимо своих школьных друзей или людей, которых я давно не видел, если они со мной не заговаривают первыми</Text>
+  </Question>
+  <Question>
+    <Number>53</Number>
+    <Text>Я верю, что прикосновением руки и молитвой можно вылечить болезнь</Text>
+  </Question>
+  <Question>
+    <Number>54</Number>
+    <Text>Большинство знающих меня людей относятся ко мне хорошо</Text>
+  </Question>
+  <Question>
+    <Number>55</Number>
+    <Text>Меня редко беспокоят боли в сердце или груди</Text>
+  </Question>
+  <Question>
+    <Number>56</Number>
+    <Text>Когда я был мальчишкой, меня выгоняли из школы за прогулы</Text>
+  </Question>
+  <Question>
+    <Number>57</Number>
+    <Text>Я человек общительный</Text>
+  </Question>
+  <Question>
+    <Number>58</Number>
+    <Text>Все, что предстоит человечеству, давно уже предначертано</Text>
+  </Question>
+  <Question>
+    <Number>59</Number>
+    <Text>Мне часто приходилось выполнять указания лиц, знавших меньше меня</Text>
+  </Question>
+  <Question>
+    <Number>60</Number>
+    <Text>Я не каждый день читаю передовицы в газетах</Text>
+  </Question>
+  <Question>
+    <Number>61</Number>
+    <Text>Я вел неправильный образ жизни</Text>
+  </Question>
+  <Question>
+    <Number>62</Number>
+    <Text>Я часто чувствую жжение, покалывание или онемение в различных частях своего тела</Text>
+  </Question>
+  <Question>
+    <Number>63</Number>
+    <Text>Я справляю большую нужду без каких-либо затруднений</Text>
+  </Question>
+  <Question>
+    <Number>64</Number>
+    <Text>Временами я так настаиваю на своем, что окружающие теряют терпение</Text>
+  </Question>
+  <Question>
+    <Number>65</Number>
+    <Text>Я люблю</Text>
+  </Question>
+  <Question>
+    <Number>66</Number>
+    <Text>Вокруг себя я иногда вижу людей, зверей и предметы, которые другие не видят</Text>
+  </Question>
+  <Question>
+    <Number>67</Number>
+    <Text>Другие мне кажутся счастливее меня</Text>
+  </Question>
+  <Question>
+    <Number>68</Number>
+    <Text>У меня почти никогда не бывает болей в области шеи сзади</Text>
+  </Question>
+  <Question>
+    <Number>69</Number>
+    <Text>Я предпочитаю бывать среди людей одного со мною пола</Text>
+  </Question>
+  <Question>
+    <Number>70</Number>
+    <Text>Мне нравилось играть в</Text>
+  </Question>
+  <Question>
+    <Number>71</Number>
+    <Text>Думаю, что многие преувеличивают свои несчастья, чтобы добиться сочувствия и помощи</Text>
+  </Question>
+  <Question>
+    <Number>72</Number>
+    <Text>Несколько раз в неделю или чаше меня беспокоят неприятные ощущения в верхней части живота</Text>
+  </Question>
+  <Question>
+    <Number>73</Number>
+    <Text>Я значительная личность</Text>
+  </Question>
+  <Question>
+    <Number>74</Number>
+    <Text>Иногда я</Text>
+  </Question>
+  <Question>
+    <Number>75</Number>
+    <Text>Иногда я бываю сердитым</Text>
+  </Question>
+  <Question>
+    <Number>76</Number>
+    <Text>Большую часть времени у меня подавленное настроение</Text>
+  </Question>
+  <Question>
+    <Number>77</Number>
+    <Text>Я люблю читать о любви</Text>
+  </Question>
+  <Question>
+    <Number>78</Number>
+    <Text>Я люблю поэзию</Text>
+  </Question>
+  <Question>
+    <Number>79</Number>
+    <Text>Меня не так легко задеть</Text>
+  </Question>
+  <Question>
+    <Number>80</Number>
+    <Text>Иногда я дразню животных</Text>
+  </Question>
+  <Question>
+    <Number>81</Number>
+    <Text>Думаю, мне понравилась бы работа лесничего</Text>
+  </Question>
+  <Question>
+    <Number>82</Number>
+    <Text>Меня легко переубедить</Text>
+  </Question>
+  <Question>
+    <Number>83</Number>
+    <Text>Любой, кто может и хочет усердно трудиться, имеет хорошую возможность добиться успеха</Text>
+  </Question>
+  <Question>
+    <Number>84</Number>
+    <Text>Чувствую, что я теряю надежду добиться чего-либо в жизни</Text>
+  </Question>
+  <Question>
+    <Number>85</Number>
+    <Text>Иногда меня так привлекают чужие вещи</Text>
+  </Question>
+  <Question>
+    <Number>86</Number>
+    <Text>Мне, безусловно, не хватает уверенности в себе</Text>
+  </Question>
+  <Question>
+    <Number>87</Number>
+    <Text>Мне бы понравилось заниматься разведением цветов</Text>
+  </Question>
+  <Question>
+    <Number>88</Number>
+    <Text>Я считаю, что жизнь стоит того, чтобы жить</Text>
+  </Question>
+  <Question>
+    <Number>89</Number>
+    <Text>Нужно множество доказательств, чтобы убедить людей в какой-либо истине</Text>
+  </Question>
+  <Question>
+    <Number>90</Number>
+    <Text>Иногда я откладываю на завтра то, что должен сделать сегодня</Text>
+  </Question>
+  <Question>
+    <Number>91</Number>
+    <Text>Я не против того, чтобы меня выбирали мишенью для насмешек</Text>
+  </Question>
+  <Question>
+    <Number>92</Number>
+    <Text>Мне бы понравилось работать няней, ухаживать за больными</Text>
+  </Question>
+  <Question>
+    <Number>93</Number>
+    <Text>Я считаю, что большинство людей способны солгать, если это в их интересах</Text>
+  </Question>
+  <Question>
+    <Number>94</Number>
+    <Text>Я часто совершаю поступки, о которых потом сожалею</Text>
+  </Question>
+  <Question>
+    <Number>95</Number>
+    <Text>Я регулярно принимаю участие в собраниях и других общественных мероприятиях</Text>
+  </Question>
+  <Question>
+    <Number>96</Number>
+    <Text>Я очень редко ссорюсь с членами моей семьи</Text>
+  </Question>
+  <Question>
+    <Number>97</Number>
+    <Text>Временами я испытываю непреодолимую потребность причинить кому-нибудь вред или сделать что-нибудь неприличное</Text>
+  </Question>
+  <Question>
+    <Number>98</Number>
+    <Text>Я верю, что в конце концов справедливость восторжествует</Text>
+  </Question>
+  <Question>
+    <Number>99</Number>
+    <Text>Я люблю ходить в гости или в другие места, где бывает много шумных забав</Text>
+  </Question>
+  <Question>
+    <Number>100</Number>
+    <Text>Я встречал проблемы с таким множеством решений, что мне трудно было остановиться на одном из них</Text>
+  </Question>
+  <Question>
+    <Number>101</Number>
+    <Text>Я считаю, что женщина в половом отношении должна иметь такую же свободу, как и мужчина</Text>
+  </Question>
+  <Question>
+    <Number>102</Number>
+    <Text>Самая трудная борьба для меня - это борьба с самим собой</Text>
+  </Question>
+  <Question>
+    <Number>103</Number>
+    <Text>У меня очень редко бывают мышечные судороги или подергивания</Text>
+  </Question>
+  <Question>
+    <Number>104</Number>
+    <Text>У меня нет оснований беспокоиться о том, что со мной будет</Text>
+  </Question>
+  <Question>
+    <Number>105</Number>
+    <Text>Иногда, когда я себя плохо чувствую, я бываю раздражительным</Text>
+  </Question>
+  <Question>
+    <Number>106</Number>
+    <Text>Большую часть времени у меня такое чувство, как будто я сделал что-то плохое или злое</Text>
+  </Question>
+  <Question>
+    <Number>107</Number>
+    <Text>Большую часть времени я чувствую себя счастливым</Text>
+  </Question>
+  <Question>
+    <Number>108</Number>
+    <Text>Я почти все время испытываю чувство заполненности в голове или в носу</Text>
+  </Question>
+  <Question>
+    <Number>109</Number>
+    <Text>Некоторые люди так любят командовать, что мне хочется все сделать наоборот, даже если я знаю, что они правы</Text>
+  </Question>
+  <Question>
+    <Number>110</Number>
+    <Text>Я знаю, что есть люди, настроенные против меня</Text>
+  </Question>
+  <Question>
+    <Number>111</Number>
+    <Text>Я никогда не шел на опасное дело ради сильных впечатлений</Text>
+  </Question>
+  <Question>
+    <Number>112</Number>
+    <Text>Я часто нахожу необходимым отстаивать то, что считаю правильным</Text>
+  </Question>
+  <Question>
+    <Number>113</Number>
+    <Text>Я понимаю, как важны законы</Text>
+  </Question>
+  <Question>
+    <Number>114</Number>
+    <Text>Я часто чувствую, что голова как бы стянута обручем</Text>
+  </Question>
+  <Question>
+    <Number>115</Number>
+    <Text>Я верю в справедливость</Text>
+  </Question>
+  <Question>
+    <Number>116</Number>
+    <Text>Я получаю больше удовольствия от игры или скачек, если держу пари</Text>
+  </Question>
+  <Question>
+    <Number>117</Number>
+    <Text>Большинство людей честны только потому, что боятся наказания</Text>
+  </Question>
+  <Question>
+    <Number>118</Number>
+    <Text>В школе меня иногда вызывали к директору за прогулы</Text>
+  </Question>
+  <Question>
+    <Number>119</Number>
+    <Text>Моя речь такая же, как всегда</Text>
+  </Question>
+  <Question>
+    <Number>120</Number>
+    <Text>Мои манеры за столом у себя дома не так хороши, как в гостях</Text>
+  </Question>
+  <Question>
+    <Number>121</Number>
+    <Text>Может быть, против меня что-то готовится</Text>
+  </Question>
+  <Question>
+    <Number>122</Number>
+    <Text>По-видимому, я так же способен и сообразителен, как и большинство окружающих меня людей</Text>
+  </Question>
+  <Question>
+    <Number>123</Number>
+    <Text>Есть тот, кто меня преследовал</Text>
+  </Question>
+  <Question>
+    <Number>124</Number>
+    <Text>Я считаю, что большинство людей ради выгоды скорее поступят нечестно, чем упустят случай</Text>
+  </Question>
+  <Question>
+    <Number>125</Number>
+    <Text>Меня очень беспокоит мой желудок</Text>
+  </Question>
+  <Question>
+    <Number>126</Number>
+    <Text>Мне нравится драматургия</Text>
+  </Question>
+  <Question>
+    <Number>127</Number>
+    <Text>Я знаю, кто виноват в большинстве моих неприятностей</Text>
+  </Question>
+  <Question>
+    <Number>128</Number>
+    <Text>При виде крови я не пугаюсь и мне не становится дурно</Text>
+  </Question>
+  <Question>
+    <Number>129</Number>
+    <Text>Часто я не могу понять, почему я был таким упрямым и ворчливым</Text>
+  </Question>
+  <Question>
+    <Number>130</Number>
+    <Text>У меня никогда не было кровавой рвоты или кашля с кровью</Text>
+  </Question>
+  <Question>
+    <Number>131</Number>
+    <Text>Меня не тревожит возможность заразиться какой-нибудь болезнью</Text>
+  </Question>
+  <Question>
+    <Number>132</Number>
+    <Text>Я люблю собирать цветы или выращивать комнатные растения</Text>
+  </Question>
+  <Question>
+    <Number>133</Number>
+    <Text>В половой жизни я всегда буду придерживаться того, что принято и обычно</Text>
+  </Question>
+  <Question>
+    <Number>134</Number>
+    <Text>Временами мои мысли текут быстрее, чем я успеваю их высказывать</Text>
+  </Question>
+  <Question>
+    <Number>135</Number>
+    <Text>Я перехожу улицу в неположенном месте, когда уверен, что меня не заметит милиционер</Text>
+  </Question>
+  <Question>
+    <Number>136</Number>
+    <Text>Если мне делают что-то приятное, меня обычно интересует, что за этим кроется</Text>
+  </Question>
+  <Question>
+    <Number>137</Number>
+    <Text>Я считаю, что в моем доме жизнь идет не хуже, чем у большинства моих знакомых</Text>
+  </Question>
+  <Question>
+    <Number>138</Number>
+    <Text>Критика и замечания очень задевают меня</Text>
+  </Question>
+  <Question>
+    <Number>139</Number>
+    <Text>Иногда я чувствую, что должен нанести повреждение или самому себе, или кому-нибудь другому</Text>
+  </Question>
+  <Question>
+    <Number>140</Number>
+    <Text>Я люблю готовить еду</Text>
+  </Question>
+  <Question>
+    <Number>141</Number>
+    <Text>Мое поведение в значительной мере определяется правилами и привычками окружающих меня людей</Text>
+  </Question>
+  <Question>
+    <Number>142</Number>
+    <Text>Временами я уверен в собственной бесполезности</Text>
+  </Question>
+  <Question>
+    <Number>143</Number>
+    <Text>В детстве я был в такой компании, где все во всем стояли друг за друга</Text>
+  </Question>
+  <Question>
+    <Number>144</Number>
+    <Text>Мне нравится солдатская служба</Text>
+  </Question>
+  <Question>
+    <Number>145</Number>
+    <Text>Временами меня так и подмывает вступить с кем-нибудь в драку</Text>
+  </Question>
+  <Question>
+    <Number>146</Number>
+    <Text>У меня страсть к перемене мест, и я не могу быть счастливым без путешествий и странствий</Text>
+  </Question>
+  <Question>
+    <Number>147</Number>
+    <Text>Я часто многое теряю из-за того, что не могу достаточно быстро принять решение</Text>
+  </Question>
+  <Question>
+    <Number>148</Number>
+    <Text>Я теряю терпение с людьми, которые обращаются за советом или как-нибудь иначе отвлекают меня во время серьезной работы</Text>
+  </Question>
+  <Question>
+    <Number>149</Number>
+    <Text>Я вел дневник</Text>
+  </Question>
+  <Question>
+    <Number>150</Number>
+    <Text>В игре мне приятнее выигрывать, чем проигрывать</Text>
+  </Question>
+  <Question>
+    <Number>151</Number>
+    <Text>Может быть кто-нибудь попытается меня отравить</Text>
+  </Question>
+  <Question>
+    <Number>152</Number>
+    <Text>Большей частью я засыпаю без тревожных мыслей</Text>
+  </Question>
+  <Question>
+    <Number>153</Number>
+    <Text>Последние несколько лет мое самочувствие большую часть времени было хорошим</Text>
+  </Question>
+  <Question>
+    <Number>154</Number>
+    <Text>У меня никогда не было припадков или судорог</Text>
+  </Question>
+  <Question>
+    <Number>155</Number>
+    <Text>У меня довольно постоянный вес</Text>
+  </Question>
+  <Question>
+    <Number>156</Number>
+    <Text>У меня бывают такие состояния, когда я не осознаю, что делаю</Text>
+  </Question>
+  <Question>
+    <Number>157</Number>
+    <Text>Я считаю, что меня часто незаслуженно наказывали</Text>
+  </Question>
+  <Question>
+    <Number>158</Number>
+    <Text>Я легко могу заплакать</Text>
+  </Question>
+  <Question>
+    <Number>159</Number>
+    <Text>Я стал хуже понимать содержание прочитанного</Text>
+  </Question>
+  <Question>
+    <Number>160</Number>
+    <Text>Я сейчас чувствую себя лучше, чем когда-либо в жизни</Text>
+  </Question>
+  <Question>
+    <Number>161</Number>
+    <Text>Теменная часть головы у меня иногда бывает очень чувствительной</Text>
+  </Question>
+  <Question>
+    <Number>162</Number>
+    <Text>Я бываю возмущен и раздражен, когда приходится признать, что меня умело провели</Text>
+  </Question>
+  <Question>
+    <Number>163</Number>
+    <Text>Я бы не сказал, что я быстро устаю</Text>
+  </Question>
+  <Question>
+    <Number>164</Number>
+    <Text>Мне нравится читать литературу по своей специальности</Text>
+  </Question>
+  <Question>
+    <Number>165</Number>
+    <Text>Мне нравится иметь значительных людей среди моих знакомых, так как это повышает мой престиж</Text>
+  </Question>
+  <Question>
+    <Number>166</Number>
+    <Text>Мне страшно смотреть вниз с высоты</Text>
+  </Question>
+  <Question>
+    <Number>167</Number>
+    <Text>Меня бы не стало волновать, если бы кто-нибудь из членов моей семьи оказался в положении нарушившего закон</Text>
+  </Question>
+  <Question>
+    <Number>168</Number>
+    <Text>Вряд ли я уверен, что с моим рассудком все в порядке</Text>
+  </Question>
+  <Question>
+    <Number>169</Number>
+    <Text>Я не боюсь иметь дело с деньгами</Text>
+  </Question>
+  <Question>
+    <Number>170</Number>
+    <Text>Меня не беспокоит, что обо мне говорят другие</Text>
+  </Question>
+  <Question>
+    <Number>171</Number>
+    <Text>Мне бывает неудобно дурачиться на вечеринке, даже если все остальные это делают</Text>
+  </Question>
+  <Question>
+    <Number>172</Number>
+    <Text>Мне часто приходится скрывать свою застенчивость ценой больших усилий</Text>
+  </Question>
+  <Question>
+    <Number>173</Number>
+    <Text>Я любил школу</Text>
+  </Question>
+  <Question>
+    <Number>174</Number>
+    <Text>Я никогда не падал в обморок</Text>
+  </Question>
+  <Question>
+    <Number>175</Number>
+    <Text>У меня не бывает головокружений</Text>
+  </Question>
+  <Question>
+    <Number>176</Number>
+    <Text>Я бы не сказал, что очень боюсь змей</Text>
+  </Question>
+  <Question>
+    <Number>177</Number>
+    <Text>Моя мать хорошая женщина</Text>
+  </Question>
+  <Question>
+    <Number>178</Number>
+    <Text>С памятью у меня все благополучно</Text>
+  </Question>
+  <Question>
+    <Number>179</Number>
+    <Text>Я обеспокоен некоторыми пунктами, связанными с половой жизнью</Text>
+  </Question>
+  <Question>
+    <Number>180</Number>
+    <Text>Мне трудно поддерживать разговор с людьми, с которыми я только что познакомился</Text>
+  </Question>
+  <Question>
+    <Number>181</Number>
+    <Text>Когда мне скучно, я стараюсь устроить что-нибудь веселое</Text>
+  </Question>
+  <Question>
+    <Number>182</Number>
+    <Text>Иногда на меня находит страх потерять рассудок</Text>
+  </Question>
+  <Question>
+    <Number>183</Number>
+    <Text>Я против того, чтобы подавать милостыню</Text>
+  </Question>
+  <Question>
+    <Number>184</Number>
+    <Text>Иногда до меня вдруг доходят голоса, идущие неизвестно откуда</Text>
+  </Question>
+  <Question>
+    <Number>185</Number>
+    <Text>Мой слух не хуже, чем у большинства людей</Text>
+  </Question>
+  <Question>
+    <Number>186</Number>
+    <Text>Я замечаю, что мои руки дрожат, когда я пытаюсь что-нибудь делать</Text>
+  </Question>
+  <Question>
+    <Number>187</Number>
+    <Text>Мои руки не стали неловкими</Text>
+  </Question>
+  <Question>
+    <Number>188</Number>
+    <Text>Я могу долго читать без заметного утомления глаз</Text>
+  </Question>
+  <Question>
+    <Number>189</Number>
+    <Text>Большую часть времени я чувствую слабость</Text>
+  </Question>
+  <Question>
+    <Number>190</Number>
+    <Text>У меня очень редко болит голова</Text>
+  </Question>
+  <Question>
+    <Number>191</Number>
+    <Text>Иногда, кода я смущаюсь, я обливаюсь потом, и мне это очень неприятно</Text>
+  </Question>
+  <Question>
+    <Number>192</Number>
+    <Text>У меня не было трудностей при сохранении равновесия при ходьбе</Text>
+  </Question>
+  <Question>
+    <Number>193</Number>
+    <Text>У меня не бывает приступов лихорадки или астмы</Text>
+  </Question>
+  <Question>
+    <Number>194</Number>
+    <Text>У меня бывали приступы, во время которых я не управлял своими движениями и речью, но понимал, что происходит вокруг</Text>
+  </Question>
+  <Question>
+    <Number>195</Number>
+    <Text>Не все, кого я знаю, мне нравятся</Text>
+  </Question>
+  <Question>
+    <Number>196</Number>
+    <Text>Я люблю посещать места, где никогда не бывал раньше</Text>
+  </Question>
+  <Question>
+    <Number>197</Number>
+    <Text>Бывало, что кто-то пытался обокрасть меня</Text>
+  </Question>
+  <Question>
+    <Number>198</Number>
+    <Text>Я предаюсь мечтам не часто</Text>
+  </Question>
+  <Question>
+    <Number>199</Number>
+    <Text>Детей следует учить правильному представлению об основных вопросах половой жизни</Text>
+  </Question>
+  <Question>
+    <Number>200</Number>
+    <Text>Имеются люди, которые пытались присвоить мои мысли и идеи</Text>
+  </Question>
+  <Question>
+    <Number>201</Number>
+    <Text>Я бы хотел быть не таким застенчивым</Text>
+  </Question>
+  <Question>
+    <Number>202</Number>
+    <Text>Я считаю себя обреченным человеком</Text>
+  </Question>
+  <Question>
+    <Number>203</Number>
+    <Text>Если бы я был журналистом, мне бы понравилось писать о театре</Text>
+  </Question>
+  <Question>
+    <Number>204</Number>
+    <Text>Мне бы понравилось быть журналистом</Text>
+  </Question>
+  <Question>
+    <Number>205</Number>
+    <Text>Порой у меня вдруг возникает желание взять на память какую-нибудь чужую мелочь</Text>
+  </Question>
+  <Question>
+    <Number>206</Number>
+    <Text>Я строго придерживаюсь принципов нравственности и морали, гораздо больше окружающих меня людей</Text>
+  </Question>
+  <Question>
+    <Number>207</Number>
+    <Text>Я люблю разные игры и развлечения</Text>
+  </Question>
+  <Question>
+    <Number>208</Number>
+    <Text>Мне нравится флиртовать</Text>
+  </Question>
+  <Question>
+    <Number>209</Number>
+    <Text>Я уверен, что моим проступкам нет прощения</Text>
+  </Question>
+  <Question>
+    <Number>210</Number>
+    <Text>Вся пища кажется мне одинаковой на вкус</Text>
+  </Question>
+  <Question>
+    <Number>211</Number>
+    <Text>Мне хочется спать днем, а ночью я страдаю от бессонницы</Text>
+  </Question>
+  <Question>
+    <Number>212</Number>
+    <Text>Мои родные обращаются со мной как с ребенком, а не как со взрослым</Text>
+  </Question>
+  <Question>
+    <Number>213</Number>
+    <Text>При ходьбе я очень осторожно перешагиваю через трещины в тротуаре</Text>
+  </Question>
+  <Question>
+    <Number>214</Number>
+    <Text>У меня никогда не было каких-либо высыпаний на коже, которые бы меня тревожили</Text>
+  </Question>
+  <Question>
+    <Number>215</Number>
+    <Text>Я чрезмерно увлекался алкогольными напитками</Text>
+  </Question>
+  <Question>
+    <Number>216</Number>
+    <Text>В моем доме отношения менее теплые и дружеские, чем в других семьях</Text>
+  </Question>
+  <Question>
+    <Number>217</Number>
+    <Text>Я часто замечаю за собой, что тревожусь о чем-то</Text>
+  </Question>
+  <Question>
+    <Number>218</Number>
+    <Text>Меня не особенно трогает вид страдающего животного</Text>
+  </Question>
+  <Question>
+    <Number>219</Number>
+    <Text>Думаю, мне бы понравилась работа, связанная с материальным снабжением больших организаций</Text>
+  </Question>
+  <Question>
+    <Number>220</Number>
+    <Text>Я люблю</Text>
+  </Question>
+  <Question>
+    <Number>221</Number>
+    <Text>Меня интересует наука</Text>
+  </Question>
+  <Question>
+    <Number>222</Number>
+    <Text>Мне нетрудно просить об услуге моих друзей, даже если я не могу ответить им тем же</Text>
+  </Question>
+  <Question>
+    <Number>223</Number>
+    <Text>Я очень люблю охоту</Text>
+  </Question>
+  <Question>
+    <Number>224</Number>
+    <Text>Мои родители часто не одобряли моих знакомств</Text>
+  </Question>
+  <Question>
+    <Number>225</Number>
+    <Text>Иногда я могу немного посплетничать</Text>
+  </Question>
+  <Question>
+    <Number>226</Number>
+    <Text>У некоторых членов моей семьи есть привычки, которые меня очень раздражают и надоедают мне</Text>
+  </Question>
+  <Question>
+    <Number>227</Number>
+    <Text>Мне говорили, что я хожу во сне</Text>
+  </Question>
+  <Question>
+    <Number>228</Number>
+    <Text>Временами я чувствую, что мне необыкновенно легко принимать решения</Text>
+  </Question>
+  <Question>
+    <Number>229</Number>
+    <Text>Я бы охотно записался в несколько разных кружков и обществ</Text>
+  </Question>
+  <Question>
+    <Number>230</Number>
+    <Text>Я почти никогда не замечал у себя приступов сердцебиения или одышки</Text>
+  </Question>
+  <Question>
+    <Number>231</Number>
+    <Text>Я люблю поговорить на темы, связанные с вопросами пола</Text>
+  </Question>
+  <Question>
+    <Number>232</Number>
+    <Text>Я наметил себе жизненную программу, основанную на чувстве долга и ответственности, и стараюсь ее выполнять</Text>
+  </Question>
+  <Question>
+    <Number>233</Number>
+    <Text>Иногда я не уступаю людям не потому, что дело действительно важное, а просто из принципа</Text>
+  </Question>
+  <Question>
+    <Number>234</Number>
+    <Text>Я легко выхожу из себя, но быстро успокаиваюсь</Text>
+  </Question>
+  <Question>
+    <Number>235</Number>
+    <Text>Я был вполне независим и свободен от принятых в нашей семье правил и традиций</Text>
+  </Question>
+  <Question>
+    <Number>236</Number>
+    <Text>Я слишком часто предаюсь размышлениям</Text>
+  </Question>
+  <Question>
+    <Number>237</Number>
+    <Text>Почти все мои родственники относятся ко мне хорошо</Text>
+  </Question>
+  <Question>
+    <Number>238</Number>
+    <Text>У меня бывают периоды такого сильного беспокойства, когда я не могу долго усидеть на одном месте</Text>
+  </Question>
+  <Question>
+    <Number>239</Number>
+    <Text>Я испытал разочарование в любви</Text>
+  </Question>
+  <Question>
+    <Number>240</Number>
+    <Text>Моя внешность никогда не вызывает у меня беспокойства</Text>
+  </Question>
+  <Question>
+    <Number>241</Number>
+    <Text>Я часто вижу сны, о которых лучше умолчать</Text>
+  </Question>
+  <Question>
+    <Number>242</Number>
+    <Text>Я не считаю себя более нервным, чем большинство окружающих</Text>
+  </Question>
+  <Question>
+    <Number>243</Number>
+    <Text>У меня редко что-нибудь болит</Text>
+  </Question>
+  <Question>
+    <Number>244</Number>
+    <Text>Мои поступки обычно бывают неправильно поняты окружающими</Text>
+  </Question>
+  <Question>
+    <Number>245</Number>
+    <Text>Мои родители и другие члены семьи часто ко мне придираются</Text>
+  </Question>
+  <Question>
+    <Number>246</Number>
+    <Text>Моя шея часто покрывается красными пятнами</Text>
+  </Question>
+  <Question>
+    <Number>247</Number>
+    <Text>У меня есть основание испытывать чувство зависти к некоторым членам моей семьи</Text>
+  </Question>
+  <Question>
+    <Number>248</Number>
+    <Text>Иногда без всякой причины, или даже когда дела идут неважно, я чувствую себя взволнованно-счастливым,</Text>
+  </Question>
+  <Question>
+    <Number>249</Number>
+    <Text>Я уверен, что того, кто совершает злые поступки, в будущем ожидает кара</Text>
+  </Question>
+  <Question>
+    <Number>250</Number>
+    <Text>Я не осуждаю того, кто стремится урвать от жизни все, что только может</Text>
+  </Question>
+  <Question>
+    <Number>251</Number>
+    <Text>У меня бывали такие состояния, когда мои действия были прерваны и я не понимал, что происходит вокруг</Text>
+  </Question>
+  <Question>
+    <Number>252</Number>
+    <Text>Никому нет дела до того, что с тобой случится</Text>
+  </Question>
+  <Question>
+    <Number>253</Number>
+    <Text>Я могу дружелюбно относиться к людям, поступки которых я не одобряю</Text>
+  </Question>
+  <Question>
+    <Number>254</Number>
+    <Text>Мне нравится бывать в компании, где любят подшучивать друг над другом</Text>
+  </Question>
+  <Question>
+    <Number>255</Number>
+    <Text>Иногда я даю хорошую оценку людям, о которых знаю очень мало</Text>
+  </Question>
+  <Question>
+    <Number>256</Number>
+    <Text>Наиболее интересная страница в газете - отдел юмора</Text>
+  </Question>
+  <Question>
+    <Number>257</Number>
+    <Text>Обычно я надеюсь на успех, если берусь за какое-нибудь дело</Text>
+  </Question>
+  <Question>
+    <Number>258</Number>
+    <Text>Я верю в торжество справедливости</Text>
+  </Question>
+  <Question>
+    <Number>259</Number>
+    <Text>Мне очень трудно начать какую бы то ни было работу</Text>
+  </Question>
+  <Question>
+    <Number>260</Number>
+    <Text>В школе я плохо усваивал материал</Text>
+  </Question>
+  <Question>
+    <Number>261</Number>
+    <Text>Будь я художником, мне бы понравилось рисовать цветы</Text>
+  </Question>
+  <Question>
+    <Number>262</Number>
+    <Text>Моя внешность меня не особенно огорчает</Text>
+  </Question>
+  <Question>
+    <Number>263</Number>
+    <Text>У меня повышенная потливость, даже при прохладной погоде</Text>
+  </Question>
+  <Question>
+    <Number>264</Number>
+    <Text>Я абсолютно уверен в себе</Text>
+  </Question>
+  <Question>
+    <Number>265</Number>
+    <Text>Безопаснее никому не доверять</Text>
+  </Question>
+  <Question>
+    <Number>266</Number>
+    <Text>Раз в неделю или чаще я бываю возбужден и раздражителен</Text>
+  </Question>
+  <Question>
+    <Number>267</Number>
+    <Text>Когда я нахожусь среди людей, мне трудно подобрать тему для разговора</Text>
+  </Question>
+  <Question>
+    <Number>268</Number>
+    <Text>Испорченное настроение мне всегда легко исправить чем-нибудь интересным</Text>
+  </Question>
+  <Question>
+    <Number>269</Number>
+    <Text>Иногда я для забавы пугаю людей, так как мне легко заставить других бояться меня</Text>
+  </Question>
+  <Question>
+    <Number>270</Number>
+    <Text>Выйдя из дома, я не волнуюсь о том, закрыта ли дверь, выключен ли газ и</Text>
+  </Question>
+  <Question>
+    <Number>271</Number>
+    <Text>Я не осуждаю человека за обман тех, кто легко позволяет себя обманывать</Text>
+  </Question>
+  <Question>
+    <Number>272</Number>
+    <Text>Временами я бываю полон энергии</Text>
+  </Question>
+  <Question>
+    <Number>273</Number>
+    <Text>У меня бывает онемение в некоторых участках кожи</Text>
+  </Question>
+  <Question>
+    <Number>274</Number>
+    <Text>Мое зрение такое же острое, как и раньше</Text>
+  </Question>
+  <Question>
+    <Number>275</Number>
+    <Text>Есть тот, кто управляет моими мыслями</Text>
+  </Question>
+  <Question>
+    <Number>276</Number>
+    <Text>Я люблю детей</Text>
+  </Question>
+  <Question>
+    <Number>277</Number>
+    <Text>Иногда меня так забавляет ловкость мошенника, что мне хочется, чтобы ему повезло</Text>
+  </Question>
+  <Question>
+    <Number>278</Number>
+    <Text>Я часто замечал, что незнакомые люди смотрят на меня критически</Text>
+  </Question>
+  <Question>
+    <Number>279</Number>
+    <Text>Я ежедневно выпиваю необычайно большое количество воды</Text>
+  </Question>
+  <Question>
+    <Number>280</Number>
+    <Text>Большинство людей заводят знакомства потому, что друзья могут оказаться полезными</Text>
+  </Question>
+  <Question>
+    <Number>281</Number>
+    <Text>Я редко замечаю у себя шум или звон в ушах</Text>
+  </Question>
+  <Question>
+    <Number>282</Number>
+    <Text>Временами я испытываю ненависть к членам своей семьи, которых обычно люблю</Text>
+  </Question>
+  <Question>
+    <Number>283</Number>
+    <Text>Если бы я был журналистом, то предпочел бы писать о спорте</Text>
+  </Question>
+  <Question>
+    <Number>284</Number>
+    <Text>Я убежден, что являюсь предметом обсуждения</Text>
+  </Question>
+  <Question>
+    <Number>285</Number>
+    <Text>Бывает, что я смеюсь по поводу вольной</Text>
+  </Question>
+  <Question>
+    <Number>286</Number>
+    <Text>Счастливее всего я себя чувствую в одиночестве</Text>
+  </Question>
+  <Question>
+    <Number>287</Number>
+    <Text>У меня меньше оснований опасаться чего-либо по сравнению с другими</Text>
+  </Question>
+  <Question>
+    <Number>288</Number>
+    <Text>У меня бывают приступы тошноты или рвоты</Text>
+  </Question>
+  <Question>
+    <Number>289</Number>
+    <Text>Меня возмущает, что преступника по каким-либо причинам могут освободить и он остается безнаказанным, благодаря ловким аргументам адвоката</Text>
+  </Question>
+  <Question>
+    <Number>290</Number>
+    <Text>Работа дается мне ценой значительного напряжения</Text>
+  </Question>
+  <Question>
+    <Number>291</Number>
+    <Text>В моей жизни бывали случаи, когда я чувствовал, что кто-то заставляет меня действовать, гипнотизируя меня</Text>
+  </Question>
+  <Question>
+    <Number>292</Number>
+    <Text>Я предпочитаю не заговаривать с людьми, пока они сами не обратятся ко мне</Text>
+  </Question>
+  <Question>
+    <Number>293</Number>
+    <Text>Я знаю того, кто пытался воздействовать на мои мысли</Text>
+  </Question>
+  <Question>
+    <Number>294</Number>
+    <Text>Я никогда не нарушал закона</Text>
+  </Question>
+  <Question>
+    <Number>295</Number>
+    <Text>Мне нравилось читать сказки Андерсена</Text>
+  </Question>
+  <Question>
+    <Number>296</Number>
+    <Text>У меня бывают периоды беспричинной веселости</Text>
+  </Question>
+  <Question>
+    <Number>297</Number>
+    <Text>Я бы хотел избавится от мыслей, связанных с половым вопросом, так как они меня беспокоят</Text>
+  </Question>
+  <Question>
+    <Number>298</Number>
+    <Text>Когда несколько человек попадают в неприятную историю, им лучше условиться, что говорить, а потом всем придерживаться одной линии</Text>
+  </Question>
+  <Question>
+    <Number>299</Number>
+    <Text>Думаю, что я чувствую все более остро, чем большинство людей</Text>
+  </Question>
+  <Question>
+    <Number>300</Number>
+    <Text>В моей жизни не было такого периода, когда я любил играть в куклы</Text>
+  </Question>
+  <Question>
+    <Number>301</Number>
+    <Text>Жизнь для меня большую часть времени связана с напряжением</Text>
+  </Question>
+  <Question>
+    <Number>302</Number>
+    <Text>У меня никогда не было неприятностей из-за моего поведения, связанного с вопросами пола</Text>
+  </Question>
+  <Question>
+    <Number>303</Number>
+    <Text>Меня настолько волнуют некоторые темы, что я стараюсь не касаться их в разговоре</Text>
+  </Question>
+  <Question>
+    <Number>304</Number>
+    <Text>В школьные годы мне было очень трудно говорить перед всем классом</Text>
+  </Question>
+  <Question>
+    <Number>305</Number>
+    <Text>Большую часть времени я чувствую себя одиноким, даже находясь среди людей</Text>
+  </Question>
+  <Question>
+    <Number>306</Number>
+    <Text>Я получаю от окружающих столько сочувствия, сколько заслуживаю</Text>
+  </Question>
+  <Question>
+    <Number>307</Number>
+    <Text>Я отказываюсь играть в некоторые игры из-за того, что неважно играю</Text>
+  </Question>
+  <Question>
+    <Number>308</Number>
+    <Text>Временами мне очень хотелось покинуть дом</Text>
+  </Question>
+  <Question>
+    <Number>309</Number>
+    <Text>Мне кажется, что я схожусь с людьми так же легко, как и другие</Text>
+  </Question>
+  <Question>
+    <Number>310</Number>
+    <Text>Моя половая жизнь удовлетворительна</Text>
+  </Question>
+  <Question>
+    <Number>311</Number>
+    <Text>В юности было время, когда я совершал мелкие кражи</Text>
+  </Question>
+  <Question>
+    <Number>312</Number>
+    <Text>Мне неприятно быть среди людей</Text>
+  </Question>
+  <Question>
+    <Number>313</Number>
+    <Text>Человек, оставляющий свои вещи без присмотра и вводящий этим в искушение, виноват в той же степени, что и вор</Text>
+  </Question>
+  <Question>
+    <Number>314</Number>
+    <Text>Временами мне в голову приходят такие нехорошие мысли, что о них лучше не рассказывать</Text>
+  </Question>
+  <Question>
+    <Number>315</Number>
+    <Text>Я считаю, что жизнь ко мне беспощадна</Text>
+  </Question>
+  <Question>
+    <Number>316</Number>
+    <Text>Думаю, что почти каждый может солгать, чтобы избежать неприятностей</Text>
+  </Question>
+  <Question>
+    <Number>317</Number>
+    <Text>Я более раним, чем большинство людей</Text>
+  </Question>
+  <Question>
+    <Number>318</Number>
+    <Text>Моя повседневная жизнь полна событий, интересующих меня</Text>
+  </Question>
+  <Question>
+    <Number>319</Number>
+    <Text>Большинству людей не нравится поступаться своими интересами ради других</Text>
+  </Question>
+  <Question>
+    <Number>320</Number>
+    <Text>Мне часто снятся сны на темы, связанные с половой жизнью</Text>
+  </Question>
+  <Question>
+    <Number>321</Number>
+    <Text>Меня легко ввести в смущение</Text>
+  </Question>
+  <Question>
+    <Number>322</Number>
+    <Text>Меня беспокоят мои денежные и служебные дела</Text>
+  </Question>
+  <Question>
+    <Number>323</Number>
+    <Text>У меня бывали совершенно необычные, очень странные, своеобразные переживания</Text>
+  </Question>
+  <Question>
+    <Number>324</Number>
+    <Text>Я никогда ни в кого не был влюблен</Text>
+  </Question>
+  <Question>
+    <Number>325</Number>
+    <Text>Я напуган тем, что совершил кое-кто из членов моей семьи</Text>
+  </Question>
+  <Question>
+    <Number>326</Number>
+    <Text>Временами у меня бывают приступы смеха или плача, которые я не могу контролировать</Text>
+  </Question>
+  <Question>
+    <Number>327</Number>
+    <Text>Мне часто приходилось подчиняться родителям, даже тогда, когда они, на мой взгляд, были не правы</Text>
+  </Question>
+  <Question>
+    <Number>328</Number>
+    <Text>Я замечаю, что мне трудно сосредоточиться на определенной задаче или работе</Text>
+  </Question>
+  <Question>
+    <Number>329</Number>
+    <Text>Мне редко снятся сны</Text>
+  </Question>
+  <Question>
+    <Number>330</Number>
+    <Text>У меня никогда не было параличей или необычной слабости в мышцах рук, ног или других частях тела</Text>
+  </Question>
+  <Question>
+    <Number>331</Number>
+    <Text>Если бы люди не имели ничего против меня, я бы добился гораздо большего</Text>
+  </Question>
+  <Question>
+    <Number>332</Number>
+    <Text>Иногда у меня меняется или пропадает голос, даже если я не простужен</Text>
+  </Question>
+  <Question>
+    <Number>333</Number>
+    <Text>Мне кажется, что нет такого человека, который понимал бы меня</Text>
+  </Question>
+  <Question>
+    <Number>334</Number>
+    <Text>Иногда я ощущаю своеобразные и специфические запахи</Text>
+  </Question>
+  <Question>
+    <Number>335</Number>
+    <Text>Мне трудно сосредоточить мысли на чем-то одном</Text>
+  </Question>
+  <Question>
+    <Number>336</Number>
+    <Text>Я легко теряю терпение с людьми</Text>
+  </Question>
+  <Question>
+    <Number>337</Number>
+    <Text>Я почти все время испытываю чувство тревоги за кого-то или за что-то</Text>
+  </Question>
+  <Question>
+    <Number>338</Number>
+    <Text>У меня, безусловно, больше причин для волнений, чем у других</Text>
+  </Question>
+  <Question>
+    <Number>339</Number>
+    <Text>Большую часть времени я желаю себе смерти</Text>
+  </Question>
+  <Question>
+    <Number>340</Number>
+    <Text>Иногда я бываю настолько возбужден, что мне трудно уснуть</Text>
+  </Question>
+  <Question>
+    <Number>341</Number>
+    <Text>Иногда я так хорошо слышу, что это мне мешает</Text>
+  </Question>
+  <Question>
+    <Number>342</Number>
+    <Text>Я сразу забываю то, что мне говорят</Text>
+  </Question>
+  <Question>
+    <Number>343</Number>
+    <Text>Я обычно должен остановиться и подумать, прежде чем сделать что-то, даже если речь идет о мелочах</Text>
+  </Question>
+  <Question>
+    <Number>344</Number>
+    <Text>Часто я перехожу на другую сторону улицы, чтобы не встретиться с тем, кого я увидел</Text>
+  </Question>
+  <Question>
+    <Number>345</Number>
+    <Text>Окружающее мне часто кажется нереальным</Text>
+  </Question>
+  <Question>
+    <Number>346</Number>
+    <Text>У меня есть привычка считать ненужные предметы, такие как окна, лампочки, вывески и</Text>
+  </Question>
+  <Question>
+    <Number>347</Number>
+    <Text>У меня нет врагов, которые бы всерьез хотели мне навредить</Text>
+  </Question>
+  <Question>
+    <Number>348</Number>
+    <Text>Меня настораживают люди, которые относятся ко мне более дружелюбно, чем я ожидал</Text>
+  </Question>
+  <Question>
+    <Number>349</Number>
+    <Text>У меня бывают странные и необычные мысли</Text>
+  </Question>
+  <Question>
+    <Number>350</Number>
+    <Text>Когда я остаюсь один, мне иногда слышатся странные вещи</Text>
+  </Question>
+  <Question>
+    <Number>351</Number>
+    <Text>Я становлюсь тревожным и расстроенным, когда приходится хотя бы ненадолго уезжать из дома</Text>
+  </Question>
+  <Question>
+    <Number>352</Number>
+    <Text>Я боюсь некоторых предметов и людей, хотя знаю, что они мне не опасны</Text>
+  </Question>
+  <Question>
+    <Number>353</Number>
+    <Text>Я не боюсь войти в комнату, где уже собрались и разговаривают люди</Text>
+  </Question>
+  <Question>
+    <Number>354</Number>
+    <Text>Я боюсь пользоваться ножом или другими острыми предметами</Text>
+  </Question>
+  <Question>
+    <Number>355</Number>
+    <Text>Иногда мне бывает приятно причинить зло тем, кого я люблю</Text>
+  </Question>
+  <Question>
+    <Number>356</Number>
+    <Text>Мне труднее сосредоточиться, чем другим</Text>
+  </Question>
+  <Question>
+    <Number>357</Number>
+    <Text>Я не раз бросал какое-нибудь дело, так как считал, что не справлюсь с ним</Text>
+  </Question>
+  <Question>
+    <Number>358</Number>
+    <Text>Мне приходят в голову плохие, часто даже ужасные слова, и я не могу от них избавиться</Text>
+  </Question>
+  <Question>
+    <Number>359</Number>
+    <Text>Иногда какая-нибудь маловажная мысль крутится в голове и надоедает мне несколько дней подряд</Text>
+  </Question>
+  <Question>
+    <Number>360</Number>
+    <Text>Почти каждый день случается что-нибудь пугающее меня</Text>
+  </Question>
+  <Question>
+    <Number>361</Number>
+    <Text>Я склонен принимать все близко к сердцу</Text>
+  </Question>
+  <Question>
+    <Number>362</Number>
+    <Text>Я более обидчив, чем большинство людей</Text>
+  </Question>
+  <Question>
+    <Number>363</Number>
+    <Text>Иногда мне было приятно, если мне причинял страдания человек, которого я люблю</Text>
+  </Question>
+  <Question>
+    <Number>364</Number>
+    <Text>Люди говорят обо мне оскорбительные и пошлые веши</Text>
+  </Question>
+  <Question>
+    <Number>365</Number>
+    <Text>Мне неспокойно, когда я нахожусь в закрытом помещении</Text>
+  </Question>
+  <Question>
+    <Number>366</Number>
+    <Text>Даже находясь среди людей, я большую часть времени чувствую себя одиноким</Text>
+  </Question>
+  <Question>
+    <Number>367</Number>
+    <Text>Я не боюсь огня</Text>
+  </Question>
+  <Question>
+    <Number>368</Number>
+    <Text>Иногда я стараюсь держаться дальше от людей, чтобы не сделать или не сказать что-либо, о чем потом буду жалеть</Text>
+  </Question>
+  <Question>
+    <Number>369</Number>
+    <Text>Вопросы религии меня не занимают</Text>
+  </Question>
+  <Question>
+    <Number>370</Number>
+    <Text>Ненавижу, когда я должен спешить в работе</Text>
+  </Question>
+  <Question>
+    <Number>371</Number>
+    <Text>Не могу сказать, что я чрезмерно застенчив</Text>
+  </Question>
+  <Question>
+    <Number>372</Number>
+    <Text>Я скорее склонен увлекаться многим, чем на долгое время остановиться на чем-то одном</Text>
+  </Question>
+  <Question>
+    <Number>373</Number>
+    <Text>Я уверен, что существует одно, единственно правильное понимание смысла жизни</Text>
+  </Question>
+  <Question>
+    <Number>374</Number>
+    <Text>Временами мне кажется, что мой рассудок работает медленнее, чем обычно</Text>
+  </Question>
+  <Question>
+    <Number>375</Number>
+    <Text>Когда я чувствую себя счастливым и полным сил, кто-нибудь своим плохим настроением может все испортить</Text>
+  </Question>
+  <Question>
+    <Number>376</Number>
+    <Text>Милиционеры обычно - честные люди</Text>
+  </Question>
+  <Question>
+    <Number>377</Number>
+    <Text>На вечеринке я чаще сижу один или беседую с одним из гостей, чем со всей группой</Text>
+  </Question>
+  <Question>
+    <Number>378</Number>
+    <Text>Мне нравится, когда женщина курит</Text>
+  </Question>
+  <Question>
+    <Number>379</Number>
+    <Text>У меня редко бывают приступы плохого настроения</Text>
+  </Question>
+  <Question>
+    <Number>380</Number>
+    <Text>Когда кто-нибудь высказывает глупость или невежество в отношении известных мне вещей, я стараюсь его поправить</Text>
+  </Question>
+  <Question>
+    <Number>381</Number>
+    <Text>Мне часто говорят, что я вспыльчив</Text>
+  </Question>
+  <Question>
+    <Number>382</Number>
+    <Text>Мне хотелось бы избавиться от раздумий по поводу своих высказываний, которые, как мне кажется, могли кого-нибудь обидеть или огорчить</Text>
+  </Question>
+  <Question>
+    <Number>383</Number>
+    <Text>Люди часто разочаровывают меня</Text>
+  </Question>
+  <Question>
+    <Number>384</Number>
+    <Text>Я чувствую, что не смог бы рассказать кому-либо все о себе</Text>
+  </Question>
+  <Question>
+    <Number>385</Number>
+    <Text>Молния - одно из тех явлений, которые вызывают у меня страх</Text>
+  </Question>
+  <Question>
+    <Number>386</Number>
+    <Text>Я люблю держать людей в неведении относительно того, что собираюсь делать</Text>
+  </Question>
+  <Question>
+    <Number>387</Number>
+    <Text>Всякие чудеса я считаю только трюками, которые одни люди разыгрывают перед другими</Text>
+  </Question>
+  <Question>
+    <Number>388</Number>
+    <Text>Мне страшно быть одному в темноте</Text>
+  </Question>
+  <Question>
+    <Number>389</Number>
+    <Text>Мои планы нередко кажутся полными трудностей, из-за чего я отказываюсь от них</Text>
+  </Question>
+  <Question>
+    <Number>390</Number>
+    <Text>Меня часто неправильно понимают, когда я пытаюсь предостеречь кого-нибудь от ошибки, и это мне очень обидно</Text>
+  </Question>
+  <Question>
+    <Number>391</Number>
+    <Text>Я люблю ходить на такие вечера, где можно потанцевать</Text>
+  </Question>
+  <Question>
+    <Number>392</Number>
+    <Text>Буря вселяет в меня ужас</Text>
+  </Question>
+  <Question>
+    <Number>393</Number>
+    <Text>Лошадей, которые плохо везут, нужно бить</Text>
+  </Question>
+  <Question>
+    <Number>394</Number>
+    <Text>Я часто пользуюсь советами людей</Text>
+  </Question>
+  <Question>
+    <Number>395</Number>
+    <Text>Будущее слишком неопределенно, чтобы строить серьезные планы</Text>
+  </Question>
+  <Question>
+    <Number>396</Number>
+    <Text>Часто, даже если идут дела хорошо, я чувствую, что мне все безразлично</Text>
+  </Question>
+  <Question>
+    <Number>397</Number>
+    <Text>У меня бывает такое чувство, что трудностей слишком много и нет смысла пытаться их преодолеть</Text>
+  </Question>
+  <Question>
+    <Number>398</Number>
+    <Text>Мне часто</Text>
+  </Question>
+  <Question>
+    <Number>399</Number>
+    <Text>Меня трудно рассердить</Text>
+  </Question>
+  <Question>
+    <Number>400</Number>
+    <Text>Если бы позволили условия, я мог бы принести человечеству большую пользу</Text>
+  </Question>
+  <Question>
+    <Number>401</Number>
+    <Text>Я не испытываю страха перед водой</Text>
+  </Question>
+  <Question>
+    <Number>402</Number>
+    <Text>Чтобы прийти к решению вопроса, я часто откладываю его рассмотрение на завтра</Text>
+  </Question>
+  <Question>
+    <Number>403</Number>
+    <Text>Это великолепно - жить в наше время, когда происходит столько всяких интересных событий</Text>
+  </Question>
+  <Question>
+    <Number>404</Number>
+    <Text>Люди часто не понимают моих намерений, когда я пытаюсь поправить их или помочь им</Text>
+  </Question>
+  <Question>
+    <Number>405</Number>
+    <Text>У меня нет затруднений при глотании</Text>
+  </Question>
+  <Question>
+    <Number>406</Number>
+    <Text>Мне часто приходилось встречать людей, которые считались специалистами, а на деле знали не больше моего</Text>
+  </Question>
+  <Question>
+    <Number>407</Number>
+    <Text>Обычно я спокоен и меня нелегко вывести из равновесия</Text>
+  </Question>
+  <Question>
+    <Number>408</Number>
+    <Text>Я склонен скрывать свои чувства из тех соображений, что люди невольно могут обидеть меня</Text>
+  </Question>
+  <Question>
+    <Number>409</Number>
+    <Text>Временами я изматываю себя тем, что берусь за слишком многое</Text>
+  </Question>
+  <Question>
+    <Number>410</Number>
+    <Text>Мне, безусловно, доставило бы удовольствие провести мошенника его же способом</Text>
+  </Question>
+  <Question>
+    <Number>411</Number>
+    <Text>Я чувствую себя неудачником, когда слышу об успехах знакомых мне людей</Text>
+  </Question>
+  <Question>
+    <Number>412</Number>
+    <Text>Я не боюсь обращаться к врачу, когда заболею или поранюсь</Text>
+  </Question>
+  <Question>
+    <Number>413</Number>
+    <Text>Я заслуживаю сурового наказания за свои проступки</Text>
+  </Question>
+  <Question>
+    <Number>414</Number>
+    <Text>Я склонен так остро переживать разочарование, что долго не могу выкинуть это из головы</Text>
+  </Question>
+  <Question>
+    <Number>415</Number>
+    <Text>При удачном стечении обстоятельств я мог бы стать крупным хорошим руководителем</Text>
+  </Question>
+  <Question>
+    <Number>416</Number>
+    <Text>Мне не по себе, если кто-нибудь наблюдает, когда я работаю, даже если я знаю, что справлюсь со своим делом хорошо</Text>
+  </Question>
+  <Question>
+    <Number>417</Number>
+    <Text>Часто меня настолько раздражает субъект, пытающийся пролезть впереди меня без очереди, что я не премину ему это высказать</Text>
+  </Question>
+  <Question>
+    <Number>418</Number>
+    <Text>Временами мне кажется, что я ни на что не годен</Text>
+  </Question>
+  <Question>
+    <Number>419</Number>
+    <Text>Я часто прогуливал в школе</Text>
+  </Question>
+  <Question>
+    <Number>420</Number>
+    <Text>Мне случалось испытывать чрезвычайно необычные мистические переживания</Text>
+  </Question>
+  <Question>
+    <Number>421</Number>
+    <Text>В моей семье есть очень нервные люди</Text>
+  </Question>
+  <Question>
+    <Number>422</Number>
+    <Text>Я испытываю неловкость за некоторых членов моей семьи из-за рода их работы</Text>
+  </Question>
+  <Question>
+    <Number>423</Number>
+    <Text>Я люблю</Text>
+  </Question>
+  <Question>
+    <Number>424</Number>
+    <Text>Большую часть времени я испытываю чувство голода</Text>
+  </Question>
+  <Question>
+    <Number>425</Number>
+    <Text>Я часто вижу сны</Text>
+  </Question>
+  <Question>
+    <Number>426</Number>
+    <Text>Временами я вынужден быть резким и грубым с раздражающими меня людьми</Text>
+  </Question>
+  <Question>
+    <Number>427</Number>
+    <Text>Меня смущают неприличные анекдоты</Text>
+  </Question>
+  <Question>
+    <Number>428</Number>
+    <Text>Мне нравится читать основополагающие статьи в газетах и журналах</Text>
+  </Question>
+  <Question>
+    <Number>429</Number>
+    <Text>Я люблю слушать лекции на серьезные темы</Text>
+  </Question>
+  <Question>
+    <Number>430</Number>
+    <Text>Меня влечет к лицам противоположного пола</Text>
+  </Question>
+  <Question>
+    <Number>431</Number>
+    <Text>Меня мало волнует возможность каких-нибудь неприятностей</Text>
+  </Question>
+  <Question>
+    <Number>432</Number>
+    <Text>Мои убеждения и взгляды непоколебимы</Text>
+  </Question>
+  <Question>
+    <Number>433</Number>
+    <Text>Я привык иметь воображаемого собеседника</Text>
+  </Question>
+  <Question>
+    <Number>434</Number>
+    <Text>Я бы хотел быть автогонщиком</Text>
+  </Question>
+  <Question>
+    <Number>435</Number>
+    <Text>Я предпочел бы работать с женщинами</Text>
+  </Question>
+  <Question>
+    <Number>436</Number>
+    <Text>Люди обычно требуют большего уважения к своим правам, чем сами уважают чужие</Text>
+  </Question>
+  <Question>
+    <Number>437</Number>
+    <Text>Вполне можно обойти закон, если вы этим его по существу не преступаете</Text>
+  </Question>
+  <Question>
+    <Number>438</Number>
+    <Text>Есть люди, которые мне настолько неприятны, что я внутренне радуюсь, когда они получают по заслугам</Text>
+  </Question>
+  <Question>
+    <Number>439</Number>
+    <Text>Я нервничаю, если приходится ждать</Text>
+  </Question>
+  <Question>
+    <Number>440</Number>
+    <Text>Я стараюсь запоминать интересные истории, чтобы потом рассказывать их другим</Text>
+  </Question>
+  <Question>
+    <Number>441</Number>
+    <Text>Мне нравятся высокие женщины</Text>
+  </Question>
+  <Question>
+    <Number>442</Number>
+    <Text>У меня бывали периоды, когда я терял сон из-за волнений</Text>
+  </Question>
+  <Question>
+    <Number>443</Number>
+    <Text>Я готов отказаться от задуманного, если окружающие считают, что я начал это делать не так</Text>
+  </Question>
+  <Question>
+    <Number>444</Number>
+    <Text>Я не пытаюсь поправлять людей, которые высказывают ошибочные суждения</Text>
+  </Question>
+  <Question>
+    <Number>445</Number>
+    <Text>В юности</Text>
+  </Question>
+  <Question>
+    <Number>446</Number>
+    <Text>Я бы предпочел играть в карты, домино или другие игры на небольшую ставку</Text>
+  </Question>
+  <Question>
+    <Number>447</Number>
+    <Text>Я готов на все, чтобы победить в споре</Text>
+  </Question>
+  <Question>
+    <Number>448</Number>
+    <Text>Мне неприятно, если посторонние лица на улице, в магазине или в автобусе наблюдают за мной</Text>
+  </Question>
+  <Question>
+    <Number>449</Number>
+    <Text>Мне нравятся общественные мероприятия, где я могу побыть среди людей</Text>
+  </Question>
+  <Question>
+    <Number>450</Number>
+    <Text>Мне нравится волнение возбужденной толпы</Text>
+  </Question>
+  <Question>
+    <Number>451</Number>
+    <Text>Мои заботы исчезают, когда я попадаю в компанию веселых друзей</Text>
+  </Question>
+  <Question>
+    <Number>452</Number>
+    <Text>Я люблю подшучивать над людьми</Text>
+  </Question>
+  <Question>
+    <Number>453</Number>
+    <Text>В детстве я не стремился быть членом уличной компании</Text>
+  </Question>
+  <Question>
+    <Number>454</Number>
+    <Text>Я бы мог жить счастливо один в избушке среди лесов и гор</Text>
+  </Question>
+  <Question>
+    <Number>455</Number>
+    <Text>Большей частью я не в курсе сплетен и разговоров окружающих меня людей</Text>
+  </Question>
+  <Question>
+    <Number>456</Number>
+    <Text>Не следует наказывать людей, нарушающих те законы, которые они считают неразумными</Text>
+  </Question>
+  <Question>
+    <Number>457</Number>
+    <Text>Я считаю, что люди никогда не должны прикасаться к спиртному</Text>
+  </Question>
+  <Question>
+    <Number>458</Number>
+    <Text>Мужчина, который больше всего занимался со мной в детстве</Text>
+  </Question>
+  <Question>
+    <Number>459</Number>
+    <Text>У меня есть, по крайней мере, одна дурная привычка, которая настолько сильна, что нет возможности с ней бороться</Text>
+  </Question>
+  <Question>
+    <Number>460</Number>
+    <Text>Я пью алкогольные напитки умеренно</Text>
+  </Question>
+  <Question>
+    <Number>461</Number>
+    <Text>Мне трудно отложить начатую работу даже ненадолго</Text>
+  </Question>
+  <Question>
+    <Number>462</Number>
+    <Text>Я мочусь и удерживаю мочеиспускание без каких-либо затруднений</Text>
+  </Question>
+  <Question>
+    <Number>463</Number>
+    <Text>Я любил играть в</Text>
+  </Question>
+  <Question>
+    <Number>464</Number>
+    <Text>Я лишен способности вызывать в себе какие-либо видения</Text>
+  </Question>
+  <Question>
+    <Number>465</Number>
+    <Text>Мне не раз случалось менять свое отношение к своей профессии</Text>
+  </Question>
+  <Question>
+    <Number>466</Number>
+    <Text>Я никогда не принимаю лекарств или снотворных таблеток без назначений врача</Text>
+  </Question>
+  <Question>
+    <Number>467</Number>
+    <Text>Я часто запоминаю ненужные номера</Text>
+  </Question>
+  <Question>
+    <Number>468</Number>
+    <Text>Я часто жалею, что был таким упрямым и ворчливым</Text>
+  </Question>
+  <Question>
+    <Number>469</Number>
+    <Text>Я часто встречал людей, завидовавших моим идеям только потому, что они пришли в голову не им первым</Text>
+  </Question>
+  <Question>
+    <Number>470</Number>
+    <Text>Темы, связанные с половым вопросом, вызывают у меня отвращение</Text>
+  </Question>
+  <Question>
+    <Number>471</Number>
+    <Text>Мои отметки в школе систематически были плохими</Text>
+  </Question>
+  <Question>
+    <Number>472</Number>
+    <Text>Я испытываю непреодолимое влечение к огню</Text>
+  </Question>
+  <Question>
+    <Number>473</Number>
+    <Text>По мере возможности я стараюсь избегать большого скопления людей</Text>
+  </Question>
+  <Question>
+    <Number>474</Number>
+    <Text>Я справляю малую нужду так же часто, как и другие</Text>
+  </Question>
+  <Question>
+    <Number>475</Number>
+    <Text>Оказавшись</Text>
+  </Question>
+  <Question>
+    <Number>476</Number>
+    <Text>Я призван совершить великую миссию</Text>
+  </Question>
+  <Question>
+    <Number>477</Number>
+    <Text>Если бы я попал в беду вместе со своими друзьями, виновными в той же степени, что и я, я скорее предпочел бы взять всю вину на себя, чем выдать их</Text>
+  </Question>
+  <Question>
+    <Number>478</Number>
+    <Text>Я никогда особенно не волновался из-за неприятностей, которые случались с членами моей семьи</Text>
+  </Question>
+  <Question>
+    <Number>479</Number>
+    <Text>Я охотно знакомлюсь с новыми людьми</Text>
+  </Question>
+  <Question>
+    <Number>480</Number>
+    <Text>Я боюсь темноты</Text>
+  </Question>
+  <Question>
+    <Number>481</Number>
+    <Text>Бывали случаи, когда я притворялся больным, чтобы избежать чего-либо</Text>
+  </Question>
+  <Question>
+    <Number>482</Number>
+    <Text>В трамваях, автобусах и другом транспорте я часто разговариваю с незнакомыми людьми</Text>
+  </Question>
+  <Question>
+    <Number>483</Number>
+    <Text>Я верю в чудеса</Text>
+  </Question>
+  <Question>
+    <Number>484</Number>
+    <Text>У меня есть недостатки, которые настолько значительны, что лучше принять их как есть и пытаться контролировать, чем стараться искоренить</Text>
+  </Question>
+  <Question>
+    <Number>485</Number>
+    <Text>Мужчина, находясь в обществе женщины, обычно думает о вещах, связанных с ее полом</Text>
+  </Question>
+  <Question>
+    <Number>486</Number>
+    <Text>Я никогда не замечал крови в своей моче</Text>
+  </Question>
+  <Question>
+    <Number>487</Number>
+    <Text>Я быстро бросаю дело, если оно идет плохо</Text>
+  </Question>
+  <Question>
+    <Number>488</Number>
+    <Text>Я бы хотел, чтобы моя судьба была благосклонной ко мне</Text>
+  </Question>
+  <Question>
+    <Number>489</Number>
+    <Text>Я сочувствую людям, которые склонны застревать на своих бедах и огорчениях</Text>
+  </Question>
+  <Question>
+    <Number>490</Number>
+    <Text>Я люблю читать книги, помогающие правильно жить и понимать смысл жизни</Text>
+  </Question>
+  <Question>
+    <Number>491</Number>
+    <Text>Меня раздражают люди, которые считают, что их понимание смысла жизни - единственно верное</Text>
+  </Question>
+  <Question>
+    <Number>492</Number>
+    <Text>Меня страшит мысль о возможности землетрясения</Text>
+  </Question>
+  <Question>
+    <Number>493</Number>
+    <Text>Я скорее предпочту работу, требующую пристального внимания, чем такую, при которой можно быть небрежным</Text>
+  </Question>
+  <Question>
+    <Number>494</Number>
+    <Text>Я боюсь находиться в маленьком закрытом помещении</Text>
+  </Question>
+  <Question>
+    <Number>495</Number>
+    <Text>Обычно я действую в открытую, если считаю важным поправить кого-нибудь</Text>
+  </Question>
+  <Question>
+    <Number>496</Number>
+    <Text>У меня никогда не двоится в глазах</Text>
+  </Question>
+  <Question>
+    <Number>497</Number>
+    <Text>Я люблю приключенческие рассказы</Text>
+  </Question>
+  <Question>
+    <Number>498</Number>
+    <Text>Лучше всегда говорить правду</Text>
+  </Question>
+  <Question>
+    <Number>499</Number>
+    <Text>Я должен признать, что временами волнуюсь без причины из-за того, что в действительности не имеет значения</Text>
+  </Question>
+  <Question>
+    <Number>500</Number>
+    <Text>Я готов на все ради хорошей идеи</Text>
+  </Question>
+  <Question>
+    <Number>501</Number>
+    <Text>В работе я предпочитаю сам находить решение, а не следовать указаниям других</Text>
+  </Question>
+  <Question>
+    <Number>502</Number>
+    <Text>Я люблю, чтобы окружающие знали мое мнение</Text>
+  </Question>
+  <Question>
+    <Number>503</Number>
+    <Text>Я не склонен давать категорические оценки поступкам окружающих</Text>
+  </Question>
+  <Question>
+    <Number>504</Number>
+    <Text>Я не считаю нужным скрывать свое презрение или отрицательное мнение о ком-либо</Text>
+  </Question>
+  <Question>
+    <Number>505</Number>
+    <Text>Бывают периоды, когда я чувствую себя настолько полным сил, что, казалось бы, мог обходиться без сна по несколько суток</Text>
+  </Question>
+  <Question>
+    <Number>506</Number>
+    <Text>Я человек нервный и легко возбудимый</Text>
+  </Question>
+  <Question>
+    <Number>507</Number>
+    <Text>Я часто работал под руководством таких людей, которые ставили себе в заслугу все достижения и сваливали все упущения и недостатки на подчиненных</Text>
+  </Question>
+  <Question>
+    <Number>508</Number>
+    <Text>Думаю, что я различаю запахи так же хорошо, как и другие люди</Text>
+  </Question>
+  <Question>
+    <Number>509</Number>
+    <Text>Иногда мне бывает трудно отстаивать свои права из-за моей сдержанности</Text>
+  </Question>
+  <Question>
+    <Number>510</Number>
+    <Text>Всякая грязь пугает меня или вызывает отвращение</Text>
+  </Question>
+  <Question>
+    <Number>511</Number>
+    <Text>У меня есть мир мечтаний, о котором я никому не говорю</Text>
+  </Question>
+  <Question>
+    <Number>512</Number>
+    <Text>Я не люблю мыться в ванной</Text>
+  </Question>
+  <Question>
+    <Number>513</Number>
+    <Text>Мне больше нравится работать с руководителем, дающим строгие четкие указания, чем с руководителем, предоставляющим большую свободу</Text>
+  </Question>
+  <Question>
+    <Number>514</Number>
+    <Text>Мне нравятся мужеподобные женщины</Text>
+  </Question>
+  <Question>
+    <Number>515</Number>
+    <Text>В моем доме всегда было все самое необходимое</Text>
+  </Question>
+  <Question>
+    <Number>516</Number>
+    <Text>У некоторых членов моей семьи вспыльчивый характер</Text>
+  </Question>
+  <Question>
+    <Number>517</Number>
+    <Text>Я ничего не могу сделать как следует</Text>
+  </Question>
+  <Question>
+    <Number>518</Number>
+    <Text>Я нередко испытываю чувство вины из-за того, что высказываю свое сочувствие людям в большей степени, чем на самом деле испытываю</Text>
+  </Question>
+  <Question>
+    <Number>519</Number>
+    <Text>С моими половыми органами не все в порядке</Text>
+  </Question>
+  <Question>
+    <Number>520</Number>
+    <Text>Как правило, я твердо отстаиваю свое мнение</Text>
+  </Question>
+  <Question>
+    <Number>521</Number>
+    <Text>Я не смущаюсь в присутствии людей высказать свое мнение или вступить в спор по хорошо известному мне вопросу</Text>
+  </Question>
+  <Question>
+    <Number>522</Number>
+    <Text>Я не боюсь пауков</Text>
+  </Question>
+  <Question>
+    <Number>523</Number>
+    <Text>Я краснею очень редко</Text>
+  </Question>
+  <Question>
+    <Number>524</Number>
+    <Text>Я не боюсь заразиться какой-нибудь болезнью через дверные ручки</Text>
+  </Question>
+  <Question>
+    <Number>525</Number>
+    <Text>Некоторые животные приводят меня в содрогание</Text>
+  </Question>
+  <Question>
+    <Number>526</Number>
+    <Text>Будущее кажется мне безнадежным</Text>
+  </Question>
+  <Question>
+    <Number>527</Number>
+    <Text>Члены моей семьи и мои близкие родственники ладят друг с другом</Text>
+  </Question>
+  <Question>
+    <Number>528</Number>
+    <Text>Я краснею не чаще других</Text>
+  </Question>
+  <Question>
+    <Number>529</Number>
+    <Text>Мне нравится носить дорогую одежду</Text>
+  </Question>
+  <Question>
+    <Number>530</Number>
+    <Text>Я часто боюсь покраснеть</Text>
+  </Question>
+  <Question>
+    <Number>531</Number>
+    <Text>Люди легко могут изменить мое мнение, которое перед этим казалось мне окончательным</Text>
+  </Question>
+  <Question>
+    <Number>532</Number>
+    <Text>Я могу терпеть боль так же долго, как и другие люди</Text>
+  </Question>
+  <Question>
+    <Number>533</Number>
+    <Text>У меня редко бывает отрыжка</Text>
+  </Question>
+  <Question>
+    <Number>534</Number>
+    <Text>Бывало, что я старался сделать что-либо трудное тогда, когда все остальные уже отказались от дальнейших попыток</Text>
+  </Question>
+  <Question>
+    <Number>535</Number>
+    <Text>У меня почти все время пересыхает во рту</Text>
+  </Question>
+  <Question>
+    <Number>536</Number>
+    <Text>Я сержусь, когда меня заставляют торопиться</Text>
+  </Question>
+  <Question>
+    <Number>537</Number>
+    <Text>Я бы хотел поохотиться на львов или тигров</Text>
+  </Question>
+  <Question>
+    <Number>538</Number>
+    <Text>Думаю, что мне бы понравилась работа портного по пошиву женского платья</Text>
+  </Question>
+  <Question>
+    <Number>539</Number>
+    <Text>Я не боюсь мышей</Text>
+  </Question>
+  <Question>
+    <Number>540</Number>
+    <Text>У меня никогда не было парализовано лицо</Text>
+  </Question>
+  <Question>
+    <Number>541</Number>
+    <Text>Моя кожа необычайно чувствительна к прикосновению</Text>
+  </Question>
+  <Question>
+    <Number>542</Number>
+    <Text>Трудно припомнить, чтобы кал у меня был черного цвета</Text>
+  </Question>
+  <Question>
+    <Number>543</Number>
+    <Text>Несколько раз в неделю у меня бывает чувство, что должно случиться что-то страшное</Text>
+  </Question>
+  <Question>
+    <Number>544</Number>
+    <Text>Я чувствую усталость большую часть времени</Text>
+  </Question>
+  <Question>
+    <Number>545</Number>
+    <Text>Иногда мне снится один и тот же сон</Text>
+  </Question>
+  <Question>
+    <Number>546</Number>
+    <Text>Я люблю читать историческую литературу</Text>
+  </Question>
+  <Question>
+    <Number>547</Number>
+    <Text>Я люблю бывать на вечерах и встречах</Text>
+  </Question>
+  <Question>
+    <Number>548</Number>
+    <Text>Я никогда не стану смотреть фильмы для взрослых, если можно этого избежать</Text>
+  </Question>
+  <Question>
+    <Number>549</Number>
+    <Text>Я стараюсь избегать конфликтных и затруднительных положений</Text>
+  </Question>
+  <Question>
+    <Number>550</Number>
+    <Text>Мне нравится чинить дверные замки</Text>
+  </Question>
+  <Question>
+    <Number>551</Number>
+    <Text>Иногда другие могут догадаться, что я думаю в данный момент</Text>
+  </Question>
+  <Question>
+    <Number>552</Number>
+    <Text>Я люблю читать о науке</Text>
+  </Question>
+  <Question>
+    <Number>553</Number>
+    <Text>Мне страшно быть одному на открытом со всех сторон месте</Text>
+  </Question>
+  <Question>
+    <Number>554</Number>
+    <Text>Если бы я был журналистом, я бы предпочел писать о театре</Text>
+  </Question>
+  <Question>
+    <Number>555</Number>
+    <Text>Иногда мне кажется, что я</Text>
+  </Question>
+  <Question>
+    <Number>556</Number>
+    <Text>Я очень внимателен в отношении стиля своей одежды</Text>
+  </Question>
+  <Question>
+    <Number>557</Number>
+    <Text>Мне бы понравилось работать секретарем</Text>
+  </Question>
+  <Question>
+    <Number>558</Number>
+    <Text>Большинство людей можно обвинить в распущенности</Text>
+  </Question>
+  <Question>
+    <Number>559</Number>
+    <Text>Я часто испытываю страх среди ночи</Text>
+  </Question>
+  <Question>
+    <Number>560</Number>
+    <Text>Меня очень раздражает то, что я забываю, куда кладу вещи</Text>
+  </Question>
+  <Question>
+    <Number>561</Number>
+    <Text>Мне очень нравится верховая езда</Text>
+  </Question>
+  <Question>
+    <Number>562</Number>
+    <Text>Человек, к которому я в детстве был больше всего привязан и кого я больше всех обожал, была женщина</Text>
+  </Question>
+  <Question>
+    <Number>563</Number>
+    <Text>Приключенческие повести нравятся мне больше, чем романтические</Text>
+  </Question>
+  <Question>
+    <Number>564</Number>
+    <Text>Я готов отказаться от своих намерений, если окружающие считают, что этого делать не стоит</Text>
+  </Question>
+  <Question>
+    <Number>565</Number>
+    <Text>Я испытываю желание прыгнуть вниз, когда нахожусь на высоте</Text>
+  </Question>
+  <Question>
+    <Number>566</Number>
+    <Text>В кино я люблю смотреть любовные эпизоды</Text>
+  </Question>
+</Questions>
