@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Mailer
+namespace MMPI
 {
   public class RelayCommand : ICommand
   {

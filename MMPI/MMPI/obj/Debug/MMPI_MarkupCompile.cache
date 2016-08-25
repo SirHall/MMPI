@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\Personal\MMPI\MMPI\MMPI\App.xaml
-21794014196
+8993972944
 
-10-862891518
-10-486943014
-MainWindow.xaml;QuestionView.xaml;
+17-662700292
+151113859016
+MainWindow.xaml;Styles\Button.xaml;Styles\ComboBox.xaml;Styles\Defines.xaml;Styles\MainWindowStyle.xaml;Styles\TextBlock.xaml;Views\QuestionView.xaml;Views\StartPageView.xaml;
 
 False
 
