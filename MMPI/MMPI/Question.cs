@@ -40,7 +40,7 @@ namespace MMPI
     }
 
     /// <summary>Возвращает ответ на вопрос</summary>
-    public bool Answer { get; set; }
+    public AnswerType Answer { get; set; }
     #endregion
   }
 }

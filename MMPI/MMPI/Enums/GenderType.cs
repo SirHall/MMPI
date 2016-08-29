@@ -1,9 +1,11 @@
 ﻿namespace MMPI
 {
   /// <summary>Нумератор пола исследуемого</summary>
-  internal enum GenderType
+  public enum GenderType
   {
+    //Мужской
     Male = 0,
+    //Женский
     Female = 1
   }
 }

@@ -25,3 +25,5 @@ E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Views\StartPageView.g.cs
 E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Styles\TextBlock.baml
 E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Styles\ComboBox.baml
 E:\Personal\MMPI\MMPI\MMPI\obj\Debug\MMPI.Resource.resources
+E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Views\ScaleControl.baml
+E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Views\ScaleControl.g.cs

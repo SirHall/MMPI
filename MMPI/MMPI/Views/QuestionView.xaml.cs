@@ -1,11 +1,6 @@
-﻿using System.Windows.Controls;
-
-namespace MMPI
+﻿namespace MMPI
 {
-  /// <summary>
-  /// Interaction logic for Question.xaml
-  /// </summary>
-  public partial class QuestionView : UserControl
+  public partial class QuestionView 
   {
     public QuestionView()
     {

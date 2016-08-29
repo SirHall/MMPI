@@ -1,0 +1,7 @@
+E:\Personal\MMPI\MMPI\MMPITest\bin\Debug\MMPITest.dll
+E:\Personal\MMPI\MMPI\MMPITest\bin\Debug\MMPITest.pdb
+E:\Personal\MMPI\MMPI\MMPITest\bin\Debug\MMPI.exe
+E:\Personal\MMPI\MMPI\MMPITest\bin\Debug\MMPI.pdb
+E:\Personal\MMPI\MMPI\MMPITest\obj\Debug\MMPITest.csprojResolveAssemblyReference.cache
+E:\Personal\MMPI\MMPI\MMPITest\obj\Debug\MMPITest.dll
+E:\Personal\MMPI\MMPI\MMPITest\obj\Debug\MMPITest.pdb

@@ -4,23 +4,25 @@ using System.Linq;
 
 namespace MMPI
 {
-  internal struct Gender
-  {
-    public GenderType Type;
-
-    public string Name { get; set; }
-  }
 
   /// <summary>Класс описывает пользователя, который проходит тест</summary>
-  internal class UserInfo:ObservableObject
+  public class UserInfo:ObservableObject
   {
-    private bool _IsStarted ;
+    #region Поля
+    /// <summary>Признак начала тестирования</summary>
+    private bool _IsStarted;
+    #endregion
+
+    #region Конструкторы
+    /// <summary>Создаёт новый экземпляр класса <see cref="UserInfo"/>.</summary>
     public UserInfo()
     {
       Birthday = DateTime.Now;
-      GenderList = new List<Gender>{new Gender{Type=GenderType.Male,Name = "Мужской"}, new Gender{Type = GenderType.Female,Name="Женский"}};
+      GenderList = new List<Gender> { new Gender { Type = GenderType.Male, Name = Globals.GENDER_MALE }, new Gender { Type = GenderType.Female, Name = Globals.GENDER_FEMALE } };
       SelectedGender = GenderList.First();
     }
+    #endregion
+
 
     public string Name { get; set; }
 

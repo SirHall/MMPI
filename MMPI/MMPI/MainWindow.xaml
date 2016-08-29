@@ -24,7 +24,6 @@
       </mmpi:QuestionView.Style>
     </mmpi:QuestionView>
 
-
     <mmpi:StartPageView x:Name="_StartPage" Grid.Row="0"
                         DataContext="{Binding Path=User}">
       <mmpi:StartPageView.Style>
@@ -56,18 +55,28 @@
         <Grid.ColumnDefinitions>
           <ColumnDefinition Width="Auto" />
           <ColumnDefinition Width="Auto" />
+          <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Button Grid.Column="0" Width="100"
                 Margin="{StaticResource Margin_NormalThickness}"
                 HorizontalAlignment="Right"
-                Command="{Binding Path=YesCommand}"
+                Command="{Binding Path=AnswerCommand}"
+                CommandParameter="MbYes"
                 Content="Да"
                 Style="{StaticResource ButtonBaseStyle}" />
         <Button Grid.Column="1" Width="100"
                 Margin="{StaticResource Margin_NormalThickness}"
                 HorizontalAlignment="Right"
-                Command="{Binding Path=NoCommand}"
+                Command="{Binding Path=AnswerCommand}"
+                CommandParameter="MbNo"
                 Content="Нет"
+                Style="{StaticResource ButtonBaseStyle}" />
+        <Button Grid.Column="2" Width="100"
+                Margin="{StaticResource Margin_NormalThickness}"
+                HorizontalAlignment="Right"
+                Command="{Binding Path=AnswerCommand}"
+                CommandParameter="MbDontKnow"
+                Content="Не знаю"
                 Style="{StaticResource ButtonBaseStyle}" />
       </Grid>
     </StackPanel>

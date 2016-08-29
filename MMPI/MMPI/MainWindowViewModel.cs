@@ -2,74 +2,77 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Windows;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Xml;
-
 
 namespace MMPI
 {
   /// <summary>Модель отображения последовательности вопросов</summary>
-  internal class MainWindowViewModel : ObservableObject
+  public class MainWindowViewModel : ObservableObject
   {
     #region Поля
 
     /// <summary>Список вопросов</summary>
-    private readonly List<Question> _Questions;
+    private  List<Question> _Questions;
 
     /// <summary>Текущий вопрос</summary>
     private Question _CurrentQuestion;
 
-    /// <summary>Команда "Да"</summary>
-    private ICommand _YesCommand;
-
-    /// <summary>Команда "Нет"</summary>
-    private ICommand _NoCommand;
+    /// <summary>Команда ответа</summary>
+    private ICommand _AnswerCommand;
 
     /// <summary>Команда начала теста</summary>
     private ICommand _StartTest;
 
+    /// <summary>Признак начала теста</summary>
     private bool _IsStarted;
 
     #endregion
 
     #region Конструкторы
+    /// <summary>Создаёт новый экземпляр класса <see cref="MainWindowViewModel"/>.</summary>
+    /// <exception cref="System.Exception">Файл с вопросами не существует</exception>
+    public MainWindowViewModel()
+    {
+      User = new UserInfo();
+      IsStarted = false;
+    }
 
     /// <summary>Создаёт новый экземпляр класса <see cref="MainWindowViewModel"/>.</summary>
-    /// <param name="isMale">Если <c>true</c> мужской тест, иначе женский.</param>
     /// <exception cref="System.Exception">Файл с вопросами не существует</exception>
-    public MainWindowViewModel( bool isMale )
+    public MainWindowViewModel(string path)
     {
-      var fileName = isMale ? Globals.XML_MALE : Globals.XML_FEMALE;
-      var doc = new XmlDocument();
-      if( !File.Exists(fileName) )
-        throw new Exception(string.Format(Globals.FILE_NOT_FOUND, fileName));
       User = new UserInfo();
+      IsStarted = false;
+      var fileName = path;
+      var doc = new XmlDocument();
+      if (!File.Exists(fileName))
+        throw new Exception(string.Format(Globals.FILE_NOT_FOUND, fileName));
+
       doc.Load(fileName);
       var nodeList = doc.SelectNodes(Globals.XML_SELECT_QUESTIONS);
-      if( nodeList == null || nodeList.Count == 0 )
+      if (nodeList == null || nodeList.Count == 0)
         return;
       _Questions = new List<Question>();
-      foreach( XmlNode node in nodeList )
+      foreach (XmlNode node in nodeList)
         _Questions.Add(new Question(node));
       _CurrentQuestion = _Questions.First();
-      IsStarted = false;
     }
 
     #endregion
 
     #region Свойства
 
-    public UserInfo User { get; private set; }
-
-    /// <summary>
-    /// Gets the started.
-    /// </summary>
-    public Visibility Started
+    public List<Question> Questions
     {
-      get { return _IsStarted ? Visibility.Visible : Visibility.Collapsed; }
+      get { return _Questions; }
     }
 
+    /// <summary>Возвращает информацию о пользователе, который проходит тест</summary>
+    public UserInfo User { get; private set; }
+
+    /// <summary>Возвращает или задает начало тестирования</summary>
     public bool IsStarted
     {
       get { return _IsStarted; }
@@ -82,28 +85,18 @@ namespace MMPI
       }
     }
 
-    public Visibility ShowStartPage
-    {
-      get { return !_IsStarted ? Visibility.Visible : Visibility.Collapsed; }
-    }
-
-
+    /// <summary>Возвращает команду начала тестирования</summary>
     public ICommand StartTestCommand
     {
       get { return _StartTest ?? ( _StartTest = new RelayCommand(parameter => StartTest()) ); }
     }
 
-    /// <summary>Возвращает команду ответа "Да"</summary>
-    public ICommand YesCommand
+    /// <summary>Возвращает команду ответа</summary>
+    public ICommand AnswerCommand
     {
-      get { return _YesCommand ?? ( _YesCommand = new RelayCommand(parameter => NextQuestion(true)) ); }
+      get { return _AnswerCommand ?? (_AnswerCommand = new RelayCommand(parameter => NextQuestion((string)parameter))); }
     }
 
-    /// <summary>Возвращает команду ответа "Нет"</summary>
-    public ICommand NoCommand
-    {
-      get { return _NoCommand ?? (_NoCommand = new RelayCommand(parameter => NextQuestion(false))); }
-    }
 
     /// <summary>Возвращает или задает текущий вопрос</summary>
     public Question CurrentQuestion
@@ -121,22 +114,76 @@ namespace MMPI
 
     #region Методы
 
+    /// <summary>Загружает список вопросов из файла</summary>
+    /// <param name="isMale">Если <c>true</c> то мужские вопросы, иначе женские.</param>
+    /// <exception cref="System.Exception"></exception>
+    private void LoadQuestions(bool isMale)
+    {
+      var fileName = isMale
+                 ? Application.StartupPath + "\\" + Globals.XML_MALE
+                 : Application.StartupPath + "\\" + Globals.XML_FEMALE;
+      var doc = new XmlDocument();
+      if (!File.Exists(fileName))
+        throw new Exception(string.Format(Globals.FILE_NOT_FOUND, fileName));
+      doc.Load(fileName);
+      var nodeList = doc.SelectNodes(Globals.XML_SELECT_QUESTIONS);
+      if (nodeList == null || nodeList.Count == 0)
+        return;
+      _Questions = new List<Question>();
+      foreach (XmlNode node in nodeList)
+        _Questions.Add(new Question(node));
+      CurrentQuestion = _Questions.Last();
+    }
+
+    /// <summary>Начинаем тест</summary>
     private void StartTest()
     {
       User.IsStarted = true;
       IsStarted = true;
-      OnPropertyChanged("Started");
-      OnPropertyChanged("ShowStartPage");
-
+      LoadQuestions(User.SelectedGender.Type==GenderType.Male);
     }
 
     /// <summary>Переходит к следующему вопросу</summary>
-    /// <param name="value">Если <c>true</c> то ответ "Да".</param>
-    private void NextQuestion(bool value)
+    /// <param name="type">Тип ответа</param>
+    private void NextQuestion(string type)
     {
-      _CurrentQuestion.Answer = value;
-      CurrentQuestion = _Questions[_CurrentQuestion.Number];
+      if (string.IsNullOrEmpty(type))
+        return;
+      AnswerType answer;
+      Enum.TryParse(type, true, out answer);
+      _CurrentQuestion.Answer = answer;
+      if (_Questions.Count < _CurrentQuestion.Number)
+        CurrentQuestion = _Questions[_CurrentQuestion.Number];
+      else
+        ShowResults();
     }
+
+    //Показываем результаты тестирования
+    private void ShowResults()
+    {
+
+    }
+
+    /// <summary>Возвращает количество ответов "Не знаю"</summary>
+    /// <returns>Количество ответов "Не знаю"</returns>
+    public int GetDontKnowCount()
+    {
+      return _Questions.Count(question => question.Answer == AnswerType.MbDontKnow);
+    }
+
+    /// <summary>Рассчитывает значение шкалы в T-баллах</summary>
+    /// <param name="type">Тип шкалы.</param>
+    /// <returns>Значение шкалы</returns>
+    public double CalculateScale( ScaleType type )
+    {
+      var statisticItem = User.SelectedGender.Type == GenderType.Male ? Globals.MaleStatistic.First(item => item.Item1 == type) : Globals.FemaleStatistic.First(item => item.Item1 == type);
+      var listTypeYes = Globals.Scales.First(item => item.Item1 == type).Item2;
+      var listTypeNo = Globals.Scales.First(item => item.Item1 == type).Item3;
+      var counter = listTypeYes!=null ? listTypeYes.Select(item => _Questions.First(question => question.Number == item)).Count(quest => quest != null && quest.Answer == AnswerType.MbYes):0;
+      counter +=listTypeNo!=null ? listTypeNo.Select(item => _Questions.First(question => question.Number == item)).Count(quest => quest != null && quest.Answer == AnswerType.MbNo):counter;
+      return 50 + (10 * (counter - statisticItem.Item2) / statisticItem.Item3);
+    }
+
     #endregion
   }
 
