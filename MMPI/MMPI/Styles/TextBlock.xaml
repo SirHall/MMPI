@@ -10,6 +10,8 @@
     <Setter Property="FontSize" Value="18"/>
     <Setter Property="TextWrapping" Value="Wrap"/>
     <Setter Property="Margin" Value="{StaticResource Margin_NormalThickness}"/>
+    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+    <Setter Property="VerticalAlignment" Value="Stretch"/>
   </Style>
   <Style x:Key="QuestionTextBlockStyle" BasedOn="{StaticResource TextBlockStyle}" TargetType="TextBlock">
     <Setter Property="VerticalAlignment" Value="Center"/>

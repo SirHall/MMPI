@@ -16,7 +16,7 @@
         <Style TargetType="{x:Type mmpi:QuestionView}">
           <Setter Property="Visibility" Value="Collapsed" />
           <Style.Triggers>
-            <DataTrigger Binding="{Binding ElementName=_StartPage, Path=Visibility}" Value="Collapsed">
+            <DataTrigger Binding="{Binding ElementName=StartPage, Path=Visibility}" Value="Collapsed">
               <Setter Property="Visibility" Value="Visible" />
             </DataTrigger>
           </Style.Triggers>
@@ -24,7 +24,7 @@
       </mmpi:QuestionView.Style>
     </mmpi:QuestionView>
 
-    <mmpi:StartPageView x:Name="_StartPage" Grid.Row="0"
+    <mmpi:StartPageView x:Name="StartPage" Grid.Row="0"
                         DataContext="{Binding Path=User}">
       <mmpi:StartPageView.Style>
         <Style TargetType="{x:Type mmpi:StartPageView}">
@@ -37,7 +37,20 @@
         </Style>
       </mmpi:StartPageView.Style>
     </mmpi:StartPageView>
-
+    
+    <mmpi:ResultView DataContext="{Binding Path=Results}">
+      <mmpi:ResultView.Style>
+        <Style TargetType="{x:Type mmpi:ResultView}">
+          <Setter Property="Visibility" Value="Collapsed" />
+          <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=IsVisible}" Value="True">
+              <Setter Property="Visibility" Value="Visible" />
+            </DataTrigger>
+          </Style.Triggers>
+        </Style>
+      </mmpi:ResultView.Style>
+    </mmpi:ResultView>
+    
     <Separator Grid.Row="1" Height="5" />
 
     <StackPanel Grid.Row="3">

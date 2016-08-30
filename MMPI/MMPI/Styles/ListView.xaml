@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="Defines.xaml" />
+    <ResourceDictionary Source="ScrollView.xaml" />
+  </ResourceDictionary.MergedDictionaries>
+
+
+
+  <Style x:Key="{x:Type ListView}" TargetType="ListView">
+    <Setter Property="SnapsToDevicePixels" Value="true" />
+    <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto" />
+    <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto" />
+    <Setter Property="ScrollViewer.CanContentScroll" Value="true" />
+    <Setter Property="VerticalContentAlignment" Value="Center" />
+    <Setter Property="Foreground" Value="{StaticResource Foreground_NormalBrush}" />
+    <Setter Property="Background" Value="{StaticResource Control_BackgroundBrush}" />
+    <Setter Property="BorderBrush" Value="{StaticResource Border_NormalBrush}" />
+    <Setter Property="BorderThickness" Value="{StaticResource BorderThickness_NormalThickness}" />
+    <Setter Property="Padding" Value="0" />
+    <Setter Property="Margin" Value="0" />
+    <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+  </Style>
+</ResourceDictionary>

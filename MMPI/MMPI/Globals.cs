@@ -48,12 +48,12 @@ namespace MMPI
 
     public static readonly List<Tuple<ScaleType, string>>  ScaleNames = new List<Tuple<ScaleType, string>>
                                                                           {
-                                                                            new Tuple<ScaleType, string>(ScaleType.Lie,"Достоверности"),
-                                                                            new Tuple<ScaleType, string>(ScaleType.True,"Надежности"),
-                                                                            new Tuple<ScaleType, string>(ScaleType.Correction,"Корректировки"),
+                                                                            new Tuple<ScaleType, string>(ScaleType.Lie,"Достоверность"),
+                                                                            new Tuple<ScaleType, string>(ScaleType.True,"Надежность"),
+                                                                            new Tuple<ScaleType, string>(ScaleType.Correction,"Корректировка"),
                                                                             new Tuple<ScaleType, string>(ScaleType.Overcontrol,"Сверхконтроль"),
                                                                             new Tuple<ScaleType, string>(ScaleType.Pessimistically,"Пессимистичность"),
-                                                                            new Tuple<ScaleType, string>(ScaleType.EmotionalLability,"Эмоциональная лабильности"),
+                                                                            new Tuple<ScaleType, string>(ScaleType.EmotionalLability,"Эмоциональная лабильность"),
                                                                             new Tuple<ScaleType, string>(ScaleType.Impulsiveness,"Импульсивность"),
                                                                             new Tuple<ScaleType, string>(ScaleType.Masculinity,"Мужественность"),
                                                                             new Tuple<ScaleType, string>(ScaleType.Femininity,"Женственность"),
@@ -107,6 +107,9 @@ namespace MMPI
     /// <summary>Максимальное число ложных ответов в (T)</summary>
     public const int MAX_TRUE_COUNT = 80;
 
+    /// <summary>Максимальное число по шкале корректировки в (T)</summary>
+    public const int MAX_CORRECTION_COUNT = 66;
+
     /// <summary>Нарушенная адаптация и отклонение состояния индивида от нормального</summary>
     public const int MAX_BASE_SCALE = 75;
 
@@ -134,7 +137,11 @@ namespace MMPI
     /// <summary>Акцентуированные черты, которые временами затрудняют социально-психологическую адаптацию человека</summary>
     public static readonly Tuple<int, int> MoreHightIntensive = new Tuple<int, int>(67, 75);
 
-
+    /// <summary>Гармоничный показатель</summary>
+    public static readonly Tuple<int, int> LinearProfile = new Tuple<int, int>(45, 55);
+    
+    /// <summary>Средний показатель корректности</summary>
+    public static readonly Tuple<int, int> MiddleCorrectCount = new Tuple<int, int>(45, 55);
     /// <summary>Список вопросов характеризующий шкалу лжи</summary>
     public static readonly List<int> LieList = new List<int>
                                                  {
@@ -353,7 +360,8 @@ namespace MMPI
                                                                  207,
                                                                  208,
                                                                  238,
-                                                                 241242,
+                                                                 241,
+                                                                 242,
                                                                  248,
                                                                  263,
                                                                  270,
@@ -950,7 +958,14 @@ namespace MMPI
     public static readonly string DataTooMuchDontKnow = "При прохождении теста было указано {0} вопросов с ответом Не знаю. Максимально возможное " + MAX_DONT_KNOW_COUNT + " ответов";
 
     /// <summary>Сообщение о недостоврености</summary>
-    public static readonly string DataTooMuchLie = "По шкале лжи набрано {0} T. Максимально возможное " + MAX_LIE_COUNT + " T";
+    public static readonly string DataTooMuchLie = "По шкале лжи набрано {0}. Максимально возможное " + MAX_LIE_COUNT + " T";
+
+    /// <summary>Максимальное значение корректности</summary>
+    public static readonly string DataMaxCorrection =
+      "Cвидетельствует, что испытуемый не захотел рассказать о себе откровенно и демонстрирует лишь свою социабельность и стремление произвести приятное впечатление";
+   
+    /// <summary>Среднее значение корректности</summary>
+    public static readonly string DataMiddleCorrection = "Естественная защитная реакции человека на попытку вторжения в мир его сокровенных переживаний, т.е. при хороший контроль над эмоциями";
 
     /// <summary>Среднее значение достоверности</summary>
     public static readonly string DataMiddleTrue = "Та или иная степень дисгармонии. Находится в состоянии дискомфорта, что отражает эмоциональную неустойчивость";
@@ -962,7 +977,7 @@ namespace MMPI
     public static readonly string DataMiddleLie = "Часто встречается у лиц примитивного психического склада с недостаточным самопониманием и низкими адаптивными возможностями";
     
     /// <summary>Сообщение о недостоврености</summary>
-    public static readonly string DataTooMuchTrue = "По шкале откровенности набрано {0} T. Максимально возможное " + MAX_TRUE_COUNT + " T";
+    public static readonly string DataTooMuchTrue = "По шкале откровенности набрано {0}. Максимально возможное " + MAX_TRUE_COUNT + " T";
 
     /// <summary>Сообщение при слишком большом количестве ответов "Не знаю"</summary>
     public static readonly string WarningDontKnowCount = string.Format(DATA_NOT_TRUE, DataTooMuchDontKnow);

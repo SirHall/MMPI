@@ -64,6 +64,8 @@ namespace MMPI
 
     #region Свойства
 
+    public Results Results { get; private set; }
+
     public List<Question> Questions
     {
       get { return _Questions; }
@@ -161,7 +163,17 @@ namespace MMPI
     //Показываем результаты тестирования
     private void ShowResults()
     {
-
+      Results = new Results();
+      foreach( var scale in Globals.ScaleNames )
+      {
+        if( ( User.SelectedGender.Type == GenderType.Male && scale.Item1 == ScaleType.Femininity )
+            || ( User.SelectedGender.Type == GenderType.Female && scale.Item1 == ScaleType.Masculinity ) )
+          continue;
+        Results.SetValue(scale.Item1, CalculateScale(scale.Item1));
+      }
+      Results.IsVisible = true;
+      IsStarted = false;
+      OnPropertyChanged("Results");
     }
 
     /// <summary>Возвращает количество ответов "Не знаю"</summary>
