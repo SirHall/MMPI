@@ -43,6 +43,9 @@
     Optimistic = 12,
     
     /// <summary>Шкала интроверсии</summary>
-    Introversion = 13
+    Introversion = 13,
+
+    /// <summary>Шкала неизвестных ответов</summary>
+    DontKnow = 14
   }
 }

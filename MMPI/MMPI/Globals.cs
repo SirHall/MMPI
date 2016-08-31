@@ -32,17 +32,41 @@ namespace MMPI
 
     #endregion
 
-    /// <summary>Ошибка с расположением файла</summary>
-    public const string FILE_NOT_FOUND = "Файл с вопросами {0} не найден. Продолжение невозможно";
+    #region Сообщения
+    /// <summary>Сообщение при слишком большом количестве ответов "Не знаю"</summary>
+    public static readonly string DataTooMuchDontKnow = "При прохождении теста было указано {0} вопросов с ответом Не знаю. Максимально возможное " + MAX_DONT_KNOW_COUNT + " ответов";
 
-    /// <summary>Формат отображения вопроса</summary>
-    public const string QUESTION_FORMAT = "{0}. {1}";
+    /// <summary>Сообщение о недостоврености</summary>
+    public static readonly string DataTooMuchLie = "По шкале лжи набрано {0}. Максимально возможное " + MAX_LIE_COUNT + " T";
 
-    /// <summary>Наименование мужского пола</summary>
-    public const string GENDER_MALE = "Мужской";
+    /// <summary>Максимальное значение корректности</summary>
+    public static readonly string DataMaxCorrection =
+      "Cвидетельствует, что испытуемый не захотел рассказать о себе откровенно и демонстрирует лишь свою социабельность и стремление произвести приятное впечатление";
 
-    /// <summary>Наименование женского пола</summary>
-    public const string GENDER_FEMALE = "Женский";
+    /// <summary>Среднее значение корректности</summary>
+    public static readonly string DataMiddleCorrection = "Естественная защитная реакции человека на попытку вторжения в мир его сокровенных переживаний, т.е. при хороший контроль над эмоциями";
+
+    /// <summary>Среднее значение достоверности</summary>
+    public static readonly string DataMiddleTrue = "Та или иная степень дисгармонии. Находится в состоянии дискомфорта, что отражает эмоциональную неустойчивость";
+
+    /// <summary>Среднее значение лжи</summary>
+    public static readonly string DataLowLie = "Cвидетельствуют об отсутствии тенденции приукрасить свой характер";
+
+    /// <summary>Среднее значение лжи</summary>
+    public static readonly string DataMiddleLie = "Часто встречается у лиц примитивного психического склада с недостаточным самопониманием и низкими адаптивными возможностями";
+
+    /// <summary>Сообщение о недостоврености</summary>
+    public static readonly string DataTooMuchTrue = "По шкале откровенности набрано {0}. Максимально возможное " + MAX_TRUE_COUNT + " T";
+
+    /// <summary>Сообщение при слишком большом количестве ответов "Не знаю"</summary>
+    public static readonly string WarningDontKnowCount = string.Format(DATA_NOT_TRUE, DataTooMuchDontKnow);
+
+    /// <summary>Сообщение при слишком большом количестве ответов "Не знаю"</summary>
+    public static readonly string WarningLieCount = string.Format(DATA_NOT_TRUE, DataTooMuchLie);
+
+    /// <summary>Сообщение о настороженности и неоткрытости</summary>
+    public static readonly string WarningDontKnowCountMiddle = "При прохождении теста было указано {0} вопросов с ответом Не знаю, что свидетельствуют о выраженной настороженности и неоткровенности обследуемого";
+    #endregion
 
     #region Обработка результатов
 
@@ -61,7 +85,8 @@ namespace MMPI
                                                                             new Tuple<ScaleType, string>(ScaleType.Anxiety,"Тревожность"),
                                                                             new Tuple<ScaleType, string>(ScaleType.Individualistic,"Индивидуалистичность"),
                                                                             new Tuple<ScaleType, string>(ScaleType.Optimistic,"Оптимистичность"),
-                                                                            new Tuple<ScaleType, string>(ScaleType.Introversion,"Интроверсия")
+                                                                            new Tuple<ScaleType, string>(ScaleType.Introversion,"Интроверсия"),
+                                                                            new Tuple<ScaleType, string>(ScaleType.DontKnow,"Неопределенность")
                                                                           };
     /// <summary>Статистические данные для Мужчин</summary>
     public static readonly List<Tuple<ScaleType, double, double>> MaleStatistic = new List<Tuple<ScaleType, double, double>>
@@ -953,42 +978,16 @@ namespace MMPI
                                                                         }; 
     #endregion
 
-    #region Сообщения
-    /// <summary>Сообщение при слишком большом количестве ответов "Не знаю"</summary>
-    public static readonly string DataTooMuchDontKnow = "При прохождении теста было указано {0} вопросов с ответом Не знаю. Максимально возможное " + MAX_DONT_KNOW_COUNT + " ответов";
+    /// <summary>Ошибка с расположением файла</summary>
+    public const string FILE_NOT_FOUND = "Файл с вопросами {0} не найден. Продолжение невозможно";
 
-    /// <summary>Сообщение о недостоврености</summary>
-    public static readonly string DataTooMuchLie = "По шкале лжи набрано {0}. Максимально возможное " + MAX_LIE_COUNT + " T";
+    /// <summary>Формат отображения вопроса</summary>
+    public const string QUESTION_FORMAT = "{0}. {1}";
 
-    /// <summary>Максимальное значение корректности</summary>
-    public static readonly string DataMaxCorrection =
-      "Cвидетельствует, что испытуемый не захотел рассказать о себе откровенно и демонстрирует лишь свою социабельность и стремление произвести приятное впечатление";
-   
-    /// <summary>Среднее значение корректности</summary>
-    public static readonly string DataMiddleCorrection = "Естественная защитная реакции человека на попытку вторжения в мир его сокровенных переживаний, т.е. при хороший контроль над эмоциями";
+    /// <summary>Наименование мужского пола</summary>
+    public const string GENDER_MALE = "Мужской";
 
-    /// <summary>Среднее значение достоверности</summary>
-    public static readonly string DataMiddleTrue = "Та или иная степень дисгармонии. Находится в состоянии дискомфорта, что отражает эмоциональную неустойчивость";
-
-    /// <summary>Среднее значение лжи</summary>
-    public static readonly string DataLowLie = "Cвидетельствуют об отсутствии тенденции приукрасить свой характер";
-
-    /// <summary>Среднее значение лжи</summary>
-    public static readonly string DataMiddleLie = "Часто встречается у лиц примитивного психического склада с недостаточным самопониманием и низкими адаптивными возможностями";
-    
-    /// <summary>Сообщение о недостоврености</summary>
-    public static readonly string DataTooMuchTrue = "По шкале откровенности набрано {0}. Максимально возможное " + MAX_TRUE_COUNT + " T";
-
-    /// <summary>Сообщение при слишком большом количестве ответов "Не знаю"</summary>
-    public static readonly string WarningDontKnowCount = string.Format(DATA_NOT_TRUE, DataTooMuchDontKnow);
-    
-    /// <summary>Сообщение при слишком большом количестве ответов "Не знаю"</summary>
-    public static readonly string WarningLieCount = string.Format(DATA_NOT_TRUE, DataTooMuchLie);
-    
-    /// <summary>Сообщение о настороженности и неоткрытости</summary>
-    public static readonly string WarningDontKnowCountMiddle = "При прохождении теста было указано {0} вопросов с ответом Не знаю, что свидетельствуют о выраженной настороженности и неоткровенности обследуемого";
-
-
-    #endregion
+    /// <summary>Наименование женского пола</summary>
+    public const string GENDER_FEMALE = "Женский";
   }
 }

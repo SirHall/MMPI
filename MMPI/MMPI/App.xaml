@@ -11,7 +11,6 @@
         <ResourceDictionary Source="Styles\TextBlock.xaml" />
         <ResourceDictionary Source="Styles\ComboBox.xaml" />
         <ResourceDictionary Source="Styles\ScrollView.xaml" />
-        <ResourceDictionary Source="Styles\ListView.xaml" />
       </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
   </Application.Resources>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\Personal\MMPI\MMPI\MMPI\App.xaml
-12-925858144
+11-301842119
 
 28-576090091
 151113859016
-MainWindow.xaml;Styles\Button.xaml;Styles\ComboBox.xaml;Styles\Defines.xaml;Styles\ListView.xaml;Styles\MainWindowStyle.xaml;Styles\ScrollView.xaml;Styles\TextBlock.xaml;Views\QuestionView.xaml;Views\ResultView.xaml;Views\ScaleControl.xaml;Views\StartPageView.xaml;
+MainWindow.xaml;Styles\Button.xaml;Styles\ComboBox.xaml;Styles\Defines.xaml;Styles\MainWindowStyle.xaml;Styles\ScrollView.xaml;Styles\TextBlock.xaml;Views\QuestionView.xaml;Views\ResultView.xaml;Views\ScaleControl.xaml;Views\StartPageView.xaml;
 
-False
+True
 

@@ -13,6 +13,7 @@ namespace MMPI
       if (window != null) action(window);
     }
 
+    /// <summary>Возвращает дескриптор окна</summary>
     public static IntPtr GetWindowHandle(this Window window)
     {
       var  helper = new WindowInteropHelper(window);

@@ -23,6 +23,11 @@ namespace MMPI
       InitResult();
     }
 
+    public double Value
+    {
+      get { return _Value; }
+    }
+
     public string Message { get; private set; }
 
     public string Name { get; private set; }

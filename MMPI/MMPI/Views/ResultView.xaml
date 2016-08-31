@@ -4,16 +4,28 @@
              d:DesignHeight="300" d:DesignWidth="300"
              mc:Ignorable="d">
   <Grid>
-    <ListView Margin="{StaticResource Margin_NormalThickness}"
-              BorderThickness="0"
-              ScrollViewer.HorizontalScrollBarVisibility="Auto"
-              ItemsSource="{Binding Path=ResultList,
-                                    Mode=OneWay}">
-      <ListView.ItemTemplate>
-        <DataTemplate>
-            <views:ScaleControl />
-        </DataTemplate>
-      </ListView.ItemTemplate>
-    </ListView>
+    <TabControl Margin="{StaticResource Margin_NormalThickness}">
+      <TabItem Header="Общие данные">
+        <ListView Margin="{StaticResource Margin_NormalThickness}"
+                  BorderThickness="0"
+                  ItemsSource="{Binding Path=ResultList,
+                                        Mode=OneWay}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <views:ScaleControl />
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </TabItem>
+      <TabItem Header="График">
+        <Viewbox>
+          <Canvas HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Top="0" Left="0" >
+            <Rectangle Fill="DeepPink" Width="100" Height="100" Canvas.Left="30"  Canvas.Top="40"  />
+            <Polyline Points="{Binding Path=Graph}"/>
+          </Canvas>
+        </Viewbox>
+      </TabItem>
+    </TabControl>
   </Grid>
 </UserControl>
