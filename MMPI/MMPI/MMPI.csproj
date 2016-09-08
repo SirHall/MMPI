@@ -61,9 +61,10 @@
     <Compile Include="Enums\GenderType.cs" />
     <Compile Include="Enums\ScaleType.cs" />
     <Compile Include="Extensions.cs" />
-    <Compile Include="Gender.cs" />
     <Compile Include="Globals.cs" />
-    <Compile Include="MainWindowViewModel.cs" />
+    <Compile Include="Series.cs" />
+    <Compile Include="ViewModels\ChartViewModel.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="Common\ObservableObject.cs" />
     <Compile Include="Question.cs" />
     <Compile Include="Resource.Designer.cs">
@@ -71,10 +72,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
-    <Compile Include="Result.cs" />
-    <Compile Include="Results.cs" />
+    <Compile Include="ViewModels\ResultViewModel.cs" />
+    <Compile Include="ViewModels\ResultsViewModel.cs" />
     <Compile Include="Styles\MainWindowStyle.cs" />
-    <Compile Include="UserInfo.cs" />
+    <Compile Include="ViewModels\UserViewModel.cs" />
+    <Compile Include="Views\Chart.xaml.cs">
+      <DependentUpon>Chart.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\QuestionView.xaml.cs">
       <DependentUpon>QuestionView.xaml</DependentUpon>
     </Compile>
@@ -121,6 +125,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Styles\TextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Chart.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

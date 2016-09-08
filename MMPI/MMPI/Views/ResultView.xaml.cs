@@ -1,6 +1,4 @@
-﻿using System.Windows.Controls;
-
-namespace MMPI
+﻿namespace MMPI
 {
   public partial class ResultView 
   {

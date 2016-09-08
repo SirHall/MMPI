@@ -34,7 +34,7 @@ namespace MMPI
     /// <exception cref="System.Exception">Файл с вопросами не существует</exception>
     public MainWindowViewModel()
     {
-      User = new UserInfo();
+      User = new UserViewModel();
       IsStarted = false;
     }
 
@@ -42,7 +42,7 @@ namespace MMPI
     /// <exception cref="System.Exception">Файл с вопросами не существует</exception>
     public MainWindowViewModel(string path)
     {
-      User = new UserInfo();
+      User = new UserViewModel();
       IsStarted = false;
       var fileName = path;
       var doc = new XmlDocument();
@@ -64,13 +64,13 @@ namespace MMPI
     #region Свойства
 
     /// <summary>Возвращает результаты прохождения теста</summary>
-    public Results Results { get; private set; }
+    public ResultsViewModel Results { get; private set; }
 
     /// <summary>Возвращает список вопросов теста</summary>
     public List<Question> Questions { get; private set; }
 
     /// <summary>Возвращает информацию о пользователе, который проходит тест</summary>
-    public UserInfo User { get; private set; }
+    public UserViewModel User { get; private set; }
 
     /// <summary>Возвращает или задает начало тестирования</summary>
     public bool IsStarted
@@ -208,7 +208,7 @@ namespace MMPI
     private void ShowResults()
     {
       FillQuestionsRandom(30);
-      Results = new Results();
+      Results = new ResultsViewModel();
       Results.SetValue(ScaleType.DontKnow, GetDontKnowCount());
       foreach( var scale in Globals.ScaleNames.Where(scale => ( User.SelectedGender.Type != GenderType.Male || scale.Item1 != ScaleType.Femininity ) && ( User.SelectedGender.Type != GenderType.Female || scale.Item1 != ScaleType.Masculinity )&&scale.Item1!=ScaleType.DontKnow) )
         Results.SetValue(scale.Item1, CalculateScale(scale.Item1));

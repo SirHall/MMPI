@@ -1,8 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Windows;
 
 namespace MMPI
 {
+  /// <summary>Структура для пола</summary>
+  public struct Gender
+  {
+    /// <summary>Пол</summary>
+    public GenderType Type;
+
+    /// <summary>Возвращает или задает наименование пола</summary>
+    public string Name { get; set; }
+  }
 
   /// <summary>Класс содержит глобальные функции, переменные и константы</summary>
   internal static class Globals
@@ -989,5 +999,8 @@ namespace MMPI
 
     /// <summary>Наименование женского пола</summary>
     public const string GENDER_FEMALE = "Женский";
+
+    /// <summary>Начало отсчёта для графика</summary>
+    public static readonly Point CenterPoint = new Point(50,50);
   }
 }

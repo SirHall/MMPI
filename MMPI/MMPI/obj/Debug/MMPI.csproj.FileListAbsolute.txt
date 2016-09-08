@@ -30,3 +30,5 @@ E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Views\ScaleControl.g.cs
 E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Views\ResultView.g.cs
 E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Views\ResultView.baml
 E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Styles\ScrollView.baml
+E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Views\Chart.baml
+E:\Personal\MMPI\MMPI\MMPI\obj\Debug\Views\Chart.g.cs
