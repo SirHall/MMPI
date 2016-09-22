@@ -59,9 +59,9 @@ namespace MMPI
       Name = Globals.ScaleNames.First(item => item.Item1 == ScaleType).Item2;
 
       _IsWarning = false;
-      //Шкала правдивости
       switch (ScaleType)
       {
+        //Шкала правдивости
         case ScaleType.Lie:
           if (Value > Globals.MAX_LIE_COUNT)
           {
@@ -73,6 +73,8 @@ namespace MMPI
           else if (Value > Globals.LowLieCount.Item1 && Value < Globals.LowLieCount.Item2)
             Message = Globals.DataLowLie;
           break;
+        
+        //Шкала достоверности
         case ScaleType.True:
           if (Value > Globals.MAX_TRUE_COUNT)
           {
@@ -82,7 +84,8 @@ namespace MMPI
           else if (Value > Globals.MiddleTrueCount.Item1 && Value < Globals.MiddleTrueCount.Item2)
             Message = Globals.DataMiddleTrue;
           break;
-
+        
+        //Шкала корректировки
         case ScaleType.Correction:
           if (Value > Globals.MAX_CORRECTION_COUNT)
           {
@@ -92,7 +95,23 @@ namespace MMPI
           else if (Value > Globals.MiddleCorrectCount.Item1 && Value < Globals.MiddleCorrectCount.Item2)
             Message = Globals.DataMiddleCorrection;
           break;
+        
+        //Базовые шкалы
+        default:
+          if (Value > Globals.DifferentInterpritation.Item1 && Value < Globals.DifferentInterpritation.Item2)
+            Message = Globals.RESULT_DIFFERENT;
+          else if (Value > Globals.HightIntensive.Item1 && Value < Globals.HightIntensive.Item2)
+            Message = Globals.RESULT_HIGHT_INTENSIVE;
+          else if (Value > Globals.MoreHightIntensive.Item1 && Value < Globals.MoreHightIntensive.Item2)
+            Message = Globals.RESULT_MORE_HIGHT_INTENSIVE;
+          else if( Value > Globals.MAX_BASE_SCALE )
+          {
+            Message = Globals.RESULT_PSYHOLOGIC;
+            _IsWarning = true;
+          }
+          break;
       }
+
     }
     #endregion
   }

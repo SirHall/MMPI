@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-    <StackPanel Name="_GraphPanel" Loaded="GraphPanelLoaded" SizeChanged="GraphPanelSizeChanged">
+    <Canvas Name="_GraphPanel" Loaded="GraphPanelLoaded" SizeChanged="GraphPanelSizeChanged">
       <ItemsControl ItemsSource="{Binding Path=Axis}">
         <ItemsControl.ItemsPanel>
           <ItemsPanelTemplate>
@@ -28,6 +28,6 @@
           <DataTemplate DataType="{x:Type Polyline}"/>
         </ItemsControl.ItemTemplate>
       </ItemsControl>
-    </StackPanel>
+    </Canvas>
   </Grid>
 </UserControl>

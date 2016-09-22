@@ -3,14 +3,15 @@
         Title="MMPI-тест" Width="525"
         Height="350"
         Style="{StaticResource MainWindowStyle}"
-        WindowStartupLocation="CenterScreen" x:ClassModifier="internal">
+        WindowStartupLocation="CenterScreen" x:ClassModifier="internal" WindowState="{Binding Path=WindowState}">
   <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*" />
       <RowDefinition Height="Auto" />
       <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
-
+   
+    <!--  Вопросы.  -->
     <mmpi:QuestionView Grid.Row="0" DataContext="{Binding Path=CurrentQuestion, UpdateSourceTrigger=PropertyChanged}">
       <mmpi:QuestionView.Style>
         <Style TargetType="{x:Type mmpi:QuestionView}">
@@ -19,11 +20,15 @@
             <DataTrigger Binding="{Binding ElementName=StartPage, Path=Visibility}" Value="Collapsed">
               <Setter Property="Visibility" Value="Visible" />
             </DataTrigger>
+            <DataTrigger Binding="{Binding ElementName=ResultsPanel, Path=Visibility}" Value="Visible">
+              <Setter Property="Visibility" Value="Collapsed" />
+            </DataTrigger>
           </Style.Triggers>
         </Style>
       </mmpi:QuestionView.Style>
     </mmpi:QuestionView>
-
+    
+    <!--  Стартовая страница с данными пользователя.  -->
     <mmpi:StartPageView x:Name="StartPage" Grid.Row="0"
                         DataContext="{Binding Path=User}">
       <mmpi:StartPageView.Style>
@@ -37,8 +42,9 @@
         </Style>
       </mmpi:StartPageView.Style>
     </mmpi:StartPageView>
-    
-    <mmpi:ResultView DataContext="{Binding Path=Results}">
+   
+    <!--  Страница с результатами.  -->
+    <mmpi:ResultView x:Name="ResultsPanel" DataContext="{Binding Path=Results}">
       <mmpi:ResultView.Style>
         <Style TargetType="{x:Type mmpi:ResultView}">
           <Setter Property="Visibility" Value="Collapsed" />
@@ -50,7 +56,7 @@
         </Style>
       </mmpi:ResultView.Style>
     </mmpi:ResultView>
-    
+
     <Separator Grid.Row="1" Height="5" />
 
     <StackPanel Grid.Row="3">
@@ -59,7 +65,10 @@
           <Setter Property="Visibility" Value="Collapsed" />
           <Style.Triggers>
             <DataTrigger Binding="{Binding ElementName=_StartPanel, Path=Visibility, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Value="Collapsed">
-              <Setter Property="Visibility" Value="Visible" />
+              <Setter Property="Visibility" Value="Visible" />    
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ElementName=ResultsPanel, Path=Visibility}" Value="Visible">
+              <Setter Property="Visibility" Value="Collapsed" />
             </DataTrigger>
           </Style.Triggers>
         </Style>
@@ -68,28 +77,25 @@
         <Grid.ColumnDefinitions>
           <ColumnDefinition Width="Auto" />
           <ColumnDefinition Width="Auto" />
-          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
         <Button Grid.Column="0" Width="100"
                 Margin="{StaticResource Margin_NormalThickness}"
                 HorizontalAlignment="Right"
                 Command="{Binding Path=AnswerCommand}"
-                CommandParameter="MbYes"
-                Content="Да"
+                CommandParameter="MbYes" Content="Да"
                 Style="{StaticResource ButtonBaseStyle}" />
         <Button Grid.Column="1" Width="100"
                 Margin="{StaticResource Margin_NormalThickness}"
                 HorizontalAlignment="Right"
                 Command="{Binding Path=AnswerCommand}"
-                CommandParameter="MbNo"
-                Content="Нет"
+                CommandParameter="MbNo" Content="Нет"
                 Style="{StaticResource ButtonBaseStyle}" />
         <Button Grid.Column="2" Width="100"
                 Margin="{StaticResource Margin_NormalThickness}"
                 HorizontalAlignment="Right"
                 Command="{Binding Path=AnswerCommand}"
-                CommandParameter="MbDontKnow"
-                Content="Не знаю"
+                CommandParameter="MbDontKnow" Content="Не знаю"
                 Style="{StaticResource ButtonBaseStyle}" />
       </Grid>
     </StackPanel>
@@ -102,6 +108,9 @@
             <DataTrigger Binding="{Binding Path=IsStarted, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Value="True">
               <Setter Property="Visibility" Value="Collapsed" />
             </DataTrigger>
+            <DataTrigger Binding="{Binding ElementName=ResultsPanel, Path=Visibility}" Value="Visible">
+              <Setter Property="Visibility" Value="Collapsed" />
+            </DataTrigger>
           </Style.Triggers>
         </Style>
       </StackPanel.Style>
@@ -110,6 +119,25 @@
               HorizontalAlignment="Right"
               Command="{Binding Path=StartTestCommand}"
               Content="Начать"
+              Style="{StaticResource ButtonBaseStyle}" />
+    </StackPanel>
+    
+    <StackPanel Grid.Row="3">
+      <StackPanel.Style>
+        <Style TargetType="{x:Type StackPanel}">
+          <Setter Property="Visibility" Value="Collapsed" />
+          <Style.Triggers>
+            <DataTrigger Binding="{Binding ElementName=ResultsPanel, Path=Visibility}" Value="Visible">
+              <Setter Property="Visibility" Value="Visible" />
+            </DataTrigger>
+          </Style.Triggers>
+        </Style>
+      </StackPanel.Style>
+      <Button Grid.Column="0" Width="100"
+              Margin="{StaticResource Margin_NormalThickness}"
+              HorizontalAlignment="Right"
+              Command="{Binding Path=StartTestCommand}"
+              Content="Сохранить"
               Style="{StaticResource ButtonBaseStyle}" />
     </StackPanel>
   </Grid>

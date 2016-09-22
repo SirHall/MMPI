@@ -1,9 +1,8 @@
 ﻿<UserControl x:Class="MMPI.ResultView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:views="clr-namespace:MMPI.Views"
-             xmlns:mmpi="clr-namespace:MMPI"
-             d:DesignHeight="300" d:DesignWidth="300"
-             mc:Ignorable="d">
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mmpi="clr-namespace:MMPI"
+             xmlns:views="clr-namespace:MMPI.Views" d:DesignHeight="300"
+             d:DesignWidth="300" mc:Ignorable="d">
   <Grid>
     <TabControl Margin="{StaticResource Margin_NormalThickness}">
       <TabItem Header="Общие данные">
@@ -20,7 +19,17 @@
         </ListView>
       </TabItem>
       <TabItem Header="График">
-        <mmpi:Chart DataContext="{Binding Path=Chart}"/>
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+          </Grid.ColumnDefinitions>
+          <mmpi:Chart Grid.Column="0" DataContext="{Binding Path=Chart}" />
+          <StackPanel Grid.Column="1" Margin="{StaticResource Margin_NormalThickness}">
+            <CheckBox Content="Показать сетку" IsChecked="{Binding Path=ShowGrid}" Margin="{StaticResource Margin_NormalThickness}"/>
+            <CheckBox Content="Показать значения " IsChecked="{Binding Path=ShowValues}" Margin="{StaticResource Margin_NormalThickness}"/>
+          </StackPanel>
+        </Grid>
       </TabItem>
     </TabControl>
   </Grid>

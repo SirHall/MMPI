@@ -1,4 +1,6 @@
-﻿namespace MMPI
+﻿using System.Windows.Controls;
+
+namespace MMPI
 {
   public partial class Chart
   {
@@ -13,6 +15,7 @@
         return;
       viewModel.Width = _GraphPanel.ActualWidth;
       viewModel.Height = _GraphPanel.ActualHeight;
+      viewModel.Parent = _GraphPanel;
     }
 
     private void GraphPanelSizeChanged(object sender, System.Windows.SizeChangedEventArgs e)
@@ -22,6 +25,7 @@
         return;
       viewModel.Width = _GraphPanel.ActualWidth;
       viewModel.Height = _GraphPanel.ActualHeight;
+      viewModel.Parent = _GraphPanel;
     }
   }
 }

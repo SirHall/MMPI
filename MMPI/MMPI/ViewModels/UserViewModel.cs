@@ -29,6 +29,9 @@ namespace MMPI
     /// <summary>Возвращает или задает дату рождения пользователя</summary>
     public DateTime Birthday { get; set; }
 
+    /// <summary>Возвращает количество полных лет</summary>
+    public int Age { get; private set; }
+
     /// <summary>Возвращает список возможных полов</summary>
     public List<Gender> GenderList { get; private set; }
 
@@ -44,6 +47,9 @@ namespace MMPI
         if (value == _IsStarted)
           return;
         _IsStarted = value;
+        Age = DateTime.Now.Year - Birthday.Year;
+        if( DateTime.Now.Month < Birthday.Month || ( DateTime.Now.Month == Birthday.Month && DateTime.Now.Day < Birthday.Day ) )
+          Age--;
         OnPropertyChanged();
       }
     }

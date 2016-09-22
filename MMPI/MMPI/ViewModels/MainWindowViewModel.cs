@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Windows.Forms;
+using System.Windows;
 using System.Windows.Input;
 using System.Xml;
+
+using Application = System.Windows.Forms.Application;
 
 namespace MMPI
 {
@@ -71,6 +73,9 @@ namespace MMPI
 
     /// <summary>Возвращает информацию о пользователе, который проходит тест</summary>
     public UserViewModel User { get; private set; }
+
+    /// <summary>Возвращает состояние окна приложения</summary>
+    public WindowState WindowState { get; private set; }
 
     /// <summary>Возвращает или задает начало тестирования</summary>
     public bool IsStarted
@@ -207,6 +212,8 @@ namespace MMPI
     //Показываем результаты тестирования
     private void ShowResults()
     {
+      WindowState = WindowState.Maximized;
+      OnPropertyChanged("WindowState");
       FillQuestionsRandom(30);
       Results = new ResultsViewModel();
       Results.SetValue(ScaleType.DontKnow, GetDontKnowCount());

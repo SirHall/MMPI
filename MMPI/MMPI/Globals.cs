@@ -991,6 +991,14 @@ namespace MMPI
     /// <summary>Ошибка с расположением файла</summary>
     public const string FILE_NOT_FOUND = "Файл с вопросами {0} не найден. Продолжение невозможно";
 
+    public const string RESULT_DIFFERENT = "Достаточно выраженных индивидуально-личностных свойств не выявлено. Характерно для сбалансированной личности";
+
+    public const string RESULT_HIGHT_INTENSIVE = "Определяет характерологические особенности индивида";
+
+    public const string RESULT_MORE_HIGHT_INTENSIVE = "Акцентуированная черта, которая временами затрудняет социально-психологическую адаптацию";
+
+    public const string RESULT_PSYHOLOGIC = "Нарушение адаптации, отклонение состояния индивида от нормального";
+
     /// <summary>Формат отображения вопроса</summary>
     public const string QUESTION_FORMAT = "{0}. {1}";
 
@@ -1001,6 +1009,6 @@ namespace MMPI
     public const string GENDER_FEMALE = "Женский";
 
     /// <summary>Начало отсчёта для графика</summary>
-    public static readonly Point CenterPoint = new Point(50,50);
+    public static readonly Point CenterPoint = new Point(30,30);
   }
 }
